@@ -7,6 +7,8 @@ __pycache__/
 venv/
 .env/
 .venv/
+env/
+ENV/
 
 # Testing and notebooks
 .pytest_cache/
@@ -29,4 +31,26 @@ dist/
 # Node-related (dashboard)
 08_dashboard/node_modules/
 
+# Colab and Google Drive specific
+.config/
+sample_data/
+
+# HuggingFace cache (use Drive mount instead)
+hf_cache/
+.cache/huggingface/
+
+# Training artifacts (checkpoints tracked with LFS)
+wandb/
+mlruns/
+tensorboard_logs/
+lightning_logs/
+
+# Temporary experiment files
+experiments/tmp/
+*.tmp
+
+# Lock files (optional - uncomment if needed)
+# requirements-lock.txt
+
 # Do NOT ignore data or models to keep full project uploaded
+

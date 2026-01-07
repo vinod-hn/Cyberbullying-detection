@@ -1,0 +1,12 @@
+# nbstripout configuration
+# This file configures nbstripout to strip outputs from Jupyter notebooks
+# Install with: pip install nbstripout
+# Enable with: nbstripout --install
+
+[filter "nbstripout"]
+    clean = nbstripout
+    smudge = cat
+    required = true
+
+[diff "ipynb"]
+    textconv = nbstripout -t
