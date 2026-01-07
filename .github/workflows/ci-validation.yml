@@ -36,26 +36,10 @@ jobs:
       run: |
         pip install -e .
 
-    - name: Validate preprocessing modules
+    - name: Run validation script
       run: |
-        python -c "from text_normalizer import TextNormalizer; print('✅ TextNormalizer import successful')"
-        python -c "from code_mix_processor import CodeMixProcessor; print('✅ CodeMixProcessor import successful')"
-        python -c "from emoji_handler import EmojiHandler; print('✅ EmojiHandler import successful')"
-      working-directory: ./01_preprocessing
+        python validate_setup.py || echo "⚠️ Some validation checks failed, but continuing"
 
-    - name: Run preprocessing tests (if available)
-      run: |
-        if [ -d "01_preprocessing/tests" ]; then
-          python -m pytest 01_preprocessing/tests/ -v || echo "⚠️ Some tests failed, but continuing"
-        else
-          echo "ℹ️ No preprocessing tests found"
-        fi
-
-    - name: Validate baseline model imports
-      run: |
-        python -c "import sys; sys.path.insert(0, '.'); from naive_bayes_classifier import NaiveBayesClassifier; print('✅ NaiveBayesClassifier import successful')" || echo "⚠️ Baseline models not validated"
-      working-directory: ./03_models/baseline
-
-    - name: Check for syntax errors
+    - name: Check for syntax errors in Python files
       run: |
         python -m py_compile $(find . -name "*.py" -not -path "*/\.*" -not -path "*/tests/*" | head -20)

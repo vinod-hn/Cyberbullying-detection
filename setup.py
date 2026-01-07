@@ -25,9 +25,10 @@ def read_requirements():
                 # Skip conditional dependencies (they should be installed separately if needed)
                 if ';' not in line:
                     requirements.append(line)
+                # For conditional dependencies, keep the full line with condition
+                # setuptools will handle them appropriately
                 else:
-                    # Include base package name without condition for setup.py
-                    requirements.append(line.split(';')[0].strip())
+                    requirements.append(line)
         return requirements
 
 setup(

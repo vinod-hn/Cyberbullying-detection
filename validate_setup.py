@@ -17,6 +17,16 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+# Constants
+NOTEBOOK_FILENAME = "Cyberbullying_Detection_Colab_Training.ipynb"
+
+
+def setup_project_path(subdir=None):
+    """Setup Python path for project imports"""
+    if subdir:
+        sys.path.insert(0, str(PROJECT_ROOT / subdir))
+    return PROJECT_ROOT
+
 def test_imports():
     """Test that all critical imports work"""
     print("=" * 60)
@@ -68,7 +78,7 @@ def test_preprocessing_modules():
     print("Testing Preprocessing Modules")
     print("=" * 60)
     
-    sys.path.insert(0, str(PROJECT_ROOT / "01_preprocessing"))
+    setup_project_path("01_preprocessing")
     
     tests = [
         ("TextNormalizer", "from text_normalizer import TextNormalizer"),
@@ -98,7 +108,7 @@ def test_basic_functionality():
     print("Testing Basic Functionality")
     print("=" * 60)
     
-    sys.path.insert(0, str(PROJECT_ROOT / "01_preprocessing"))
+    setup_project_path("01_preprocessing")
     
     try:
         from text_normalizer import TextNormalizer
@@ -158,7 +168,7 @@ def main():
     if all(results):
         print("✅ All tests passed! Setup is ready.")
         print("\n📚 Next steps:")
-        print("   1. Open Cyberbullying_Detection_Colab_Training.ipynb in Colab")
+        print(f"   1. Open {NOTEBOOK_FILENAME} in Colab")
         print("   2. Enable GPU runtime")
         print("   3. Follow the training guide in COLAB_TRAINING.md")
         return 0
