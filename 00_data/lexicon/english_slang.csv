@@ -1,0 +1,212 @@
+term,meaning,usage_context,formality,category
+dude,friend/person,casual address,informal,address
+bro,brother/friend,casual address,informal,address
+man,friend/person,casual address,informal,address
+yo,hey/greeting,attention getter,informal,greeting
+lol,laughing out loud,humor indicator,informal,reaction
+lmao,laughing my ass off,humor intensifier,very informal,reaction
+omg,oh my god,surprise/shock,informal,exclamation
+tbh,to be honest,opinion prefix,informal,discourse
+ngl,not gonna lie,honesty marker,informal,discourse
+idk,I don't know,uncertainty,informal,response
+idc,I don't care,dismissal,informal,response
+rn,right now,temporal marker,informal,time
+brb,be right back,temporary absence,informal,status
+gtg,got to go,departure,informal,status
+wth,what the hell,surprise/anger,informal,exclamation
+smh,shaking my head,disappointment,informal,reaction
+sus,suspicious,doubt indicator,informal,judgment
+lowkey,secretly/somewhat,intensity modifier,informal,modifier
+highkey,obviously/very,intensity modifier,informal,modifier
+salty,bitter/upset,emotional state,informal,emotion
+toxic,harmful/negative,behavioral descriptor,informal,judgment
+cringe,embarrassing,social judgment,informal,judgment
+vibe,atmosphere/mood,experience descriptor,informal,state
+flex,show off,behavioral verb,informal,action
+ghosted,ignored completely,relationship term,informal,action
+slay,do excellently,encouragement,informal,praise
+cap,lie/false,truth judgment,very informal,judgment
+no cap,no lie/truth,truth assertion,very informal,judgment
+fire,excellent/amazing,quality praise,informal,praise
+lit,exciting/excellent,quality praise,informal,praise
+bet,okay/agreement,confirmation,informal,response
+fam,family/close friends,group address,informal,address
+squad,friend group,group reference,informal,group
+chill,relax/calm,mood descriptor,informal,state
+sike,just kidding,deception reveal,informal,discourse
+legit,legitimate/real,authenticity,informal,modifier
+epic,awesome/impressive,intensity praise,informal,praise
+fail,failure/mistake,negative outcome,informal,judgment
+noob,newcomer/beginner,skill judgment,informal,judgment
+spam,excessive posting,online behavior,informal,action
+troll,provocative user,online behavior,informal,identity
+simp,overly devoted person,behavioral judgment,very informal,judgment
+karen,entitled complainer,stereotype reference,very informal,identity
+goat,greatest of all time,extreme praise,informal,praise
+mood,relatable feeling,emotional sharing,informal,reaction
+period,end of statement/emphatic,sentence ender,informal,emphasis
+whatever,dismissive/indifferent,dismissal,informal,reaction
+seriously,genuine emphasis,intensifier,informal,emphasis
+basically,essentially/in summary,discourse marker,informal,discourse
+honestly,truthfully speaking,opinion marker,informal,discourse
+actually,in fact/really,correction marker,informal,discourse
+literally,truly/exactly,intensifier,informal,emphasis
+obviously,clearly/evidently,certainty marker,informal,emphasis
+definitely,certainly/for sure,confirmation,informal,agreement
+apparently,seemingly/it seems,hedging marker,informal,discourse
+supposedly,allegedly/claimed,doubt marker,informal,discourse
+ridiculous,absurd/extreme,negative judgment,informal,criticism
+pathetic,pitiful/contemptible,strong insult,informal,insult
+annoying,irritating/bothersome,negative trait,informal,criticism
+irritating,causing annoyance,negative trait,informal,criticism
+embarrassing,causing shame,negative judgment,informal,criticism
+awkward,uncomfortable/clumsy,social judgment,informal,criticism
+weird,strange/odd,judgment,informal,criticism
+creepy,disturbing/unsettling,strong criticism,informal,criticism
+gross,disgusting,strong disgust,informal,criticism
+nasty,unpleasant/mean,negative descriptor,informal,criticism
+rude,impolite/offensive,behavioral criticism,informal,criticism
+selfish,self-centered,character criticism,informal,criticism
+childish,immature,behavioral criticism,informal,insult
+immature,not fully developed,behavioral criticism,informal,insult
+dramatic,exaggerated emotional,behavioral criticism,informal,criticism
+clingy,overly attached,relationship criticism,informal,criticism
+needy,requiring attention,relationship criticism,informal,criticism
+desperate,overly eager,negative trait,informal,criticism
+obsessed,fixated/consumed,negative trait,informal,criticism
+stalker,one who follows,harassment term,informal,threat
+creep,disturbing person,strong insult,informal,insult
+weirdo,strange person,mild insult,informal,insult
+loser,failure/unsuccessful person,insult,informal,insult
+fool,stupid person,insult,informal,insult
+idiot,stupid person,insult,informal,insult
+stupid,lacking intelligence,insult,informal,insult
+dumb,lacking intelligence,insult,informal,insult
+hopeless,without hope/useless,insult,informal,insult
+useless,without use/worthless,insult,informal,insult
+worthless,without value,strong insult,informal,insult
+rubbish,garbage/nonsense,dismissive,informal,insult
+nonsense,absurd talk,dismissive,informal,criticism
+ridiculous,absurd/silly,criticism,informal,criticism
+smart,intelligent (often sarcastic),sarcasm,informal,mixed
+genius,smart person (often sarcastic),sarcasm,informal,mixed
+expert,skilled person (often sarcastic),sarcasm,informal,mixed
+whatever,dismissive response,dismissal,informal,dismissal
+fine,acceptable/angry agreement,passive aggressive,informal,mixed
+okay,acceptable,agreement,informal,agreement
+sure,agreement (often reluctant),agreement,informal,mixed
+right,correct/sarcastic agreement,mixed,informal,mixed
+exactly,precise agreement,emphasis,informal,agreement
+ugh,frustration expression,exclamation,informal,emotion
+meh,indifference,reaction,informal,dismissal
+yikes,shock/concern,exclamation,informal,reaction
+oops,mistake acknowledgment,exclamation,informal,apology
+sorry,apology,politeness,formal,apology
+please,polite request,politeness,formal,request
+thanks,gratitude,politeness,informal,gratitude
+appreciate,value/grateful for,formal gratitude,formal,gratitude
+welcome,response to thanks,politeness,formal,response
+congrats,congratulations,celebration,informal,praise
+awesome,excellent/great,positive,informal,praise
+amazing,wonderful/impressive,positive,informal,praise
+fantastic,wonderful,positive,informal,praise
+incredible,unbelievable/great,positive,informal,praise
+wonderful,great/marvelous,positive,formal,praise
+perfect,flawless/ideal,positive,informal,praise
+excellent,outstanding,positive,formal,praise
+great,very good,positive,informal,praise
+good,satisfactory,positive,informal,praise
+nice,pleasant/good,positive,informal,praise
+cool,acceptable/impressive,positive,informal,approval
+interesting,engaging/curious,neutral positive,informal,interest
+funny,humorous,positive,informal,humor
+hilarious,very funny,positive,informal,humor
+cute,attractive/endearing,positive,informal,affection
+sweet,kind/lovely,positive,informal,affection
+lovely,beautiful/pleasant,positive,formal,affection
+beautiful,aesthetically pleasing,positive,formal,compliment
+pretty,attractive,positive,informal,compliment
+handsome,attractive (male),positive,formal,compliment
+hot,very attractive,informal positive,very informal,compliment
+gorgeous,stunningly attractive,positive,informal,compliment
+stunning,impressive/beautiful,positive,formal,compliment
+ugly,unattractive,insult,informal,insult
+fat,overweight (offensive),body shaming,offensive,insult
+skinny,very thin (can be offensive),body reference,informal,mixed
+short,not tall (can be offensive),body reference,informal,mixed
+tall,high height,body reference,informal,neutral
+lazy,not active/working,negative trait,informal,criticism
+busy,occupied,status,informal,status
+tired,fatigued,status,informal,status
+bored,uninterested,status,informal,status
+stressed,under pressure,status,informal,status
+worried,anxious,emotional state,informal,emotion
+scared,frightened,emotional state,informal,emotion
+angry,upset/mad,emotional state,informal,emotion
+mad,angry/upset,emotional state,informal,emotion
+upset,distressed,emotional state,informal,emotion
+sad,unhappy,emotional state,informal,emotion
+happy,joyful,emotional state,informal,emotion
+excited,enthusiastic,emotional state,informal,emotion
+nervous,anxious,emotional state,informal,emotion
+confused,puzzled,mental state,informal,state
+lost,confused/disoriented,mental state,informal,state
+stuck,unable to progress,status,informal,state
+done,finished/fed up,status,informal,state
+over it,no longer caring,dismissal,informal,dismissal
+moving on,proceeding forward,transition,informal,action
+forget it,dismissal,dismissal,informal,dismissal
+never mind,dismissal,dismissal,informal,dismissal
+drop it,stop discussing,command,informal,command
+shut up,stop talking,aggressive command,informal,aggression
+back off,give space,aggressive command,informal,aggression
+get lost,go away,aggressive command,informal,aggression
+go away,leave,command,informal,command
+leave,depart,command,informal,command
+stop,cease action,command,informal,command
+wait,pause/hold,command,informal,command
+listen,pay attention,command,informal,command
+look,observe/attention,command,informal,command
+watch,observe,command,informal,command
+see,understand/observe,command,informal,command
+understand,comprehend,question/command,informal,communication
+get it,understand,informal question,informal,communication
+got it,understood,confirmation,informal,response
+copy that,understood,confirmation,informal,response
+roger,understood,confirmation,informal,response
+noted,acknowledged,confirmation,formal,response
+agree,concur,agreement,informal,agreement
+disagree,differ in opinion,disagreement,informal,disagreement
+wrong,incorrect,correction,informal,criticism
+right,correct,confirmation,informal,agreement
+true,accurate,confirmation,informal,agreement
+false,inaccurate,correction,informal,criticism
+fake,not genuine,criticism,informal,criticism
+real,genuine,confirmation,informal,praise
+honest,truthful,positive trait,informal,praise
+loyal,faithful,positive trait,informal,praise
+trustworthy,reliable,positive trait,formal,praise
+reliable,dependable,positive trait,formal,praise
+responsible,accountable,positive trait,formal,praise
+mature,adult-like behavior,positive trait,informal,praise
+professional,work-appropriate,formal trait,formal,praise
+serious,not joking,attitude,informal,state
+joking,not serious,clarification,informal,clarification
+kidding,not serious,clarification,informal,clarification
+teasing,playful mocking,clarification,informal,clarification
+mocking,ridiculing,negative behavior,informal,criticism
+bullying,aggressive harassment,serious accusation,formal,accusation
+harassing,persistent unwanted contact,serious accusation,formal,accusation
+stalking,following/monitoring,serious accusation,formal,accusation
+threatening,making threats,serious accusation,formal,accusation
+insulting,being offensive,accusation,informal,accusation
+disrespecting,showing no respect,accusation,informal,accusation
+ignoring,not acknowledging,behavior,informal,behavior
+avoiding,staying away from,behavior,informal,behavior
+blocking,preventing contact,action,informal,action
+reporting,filing complaint,action,formal,action
+warning,giving notice,action,formal,action
+consequence,result of action,threat implication,formal,threat
+regret,feel sorry later,threat implication,informal,threat
+suffer,experience pain,threat,informal,threat
+pay,face consequences,threat idiom,informal,threat

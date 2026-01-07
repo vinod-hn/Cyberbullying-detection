@@ -1,0 +1,165 @@
+term,severity,category,offensive_score,usage_context
+asshole,high,insult,0.85,Calling someone contemptible
+stupid,medium,insult,0.45,Intelligence insult
+loser,medium,insult,0.50,Social status insult
+dumb,medium,insult,0.40,Intelligence insult
+rubbish,low,insult,0.30,Dismissive insult
+idiot,medium,insult,0.55,Intelligence insult
+moron,medium,insult,0.60,Intelligence insult
+jerk,medium,insult,0.50,Behavioral insult
+fool,medium,insult,0.45,Intelligence insult
+dickhole,high,profanity,0.90,Vulgar genital reference
+pissflaps,high,profanity,0.88,Vulgar anatomical reference
+asswipe,high,profanity,0.85,Vulgar insult
+bellend,high,profanity,0.80,British vulgar - genital reference
+twat,high,profanity,0.82,British vulgar - genital slur
+bastard,medium,profanity,0.65,Illegitimacy insult
+damn,low,profanity,0.25,Mild curse
+hell,low,profanity,0.20,Mild curse
+crap,low,profanity,0.30,Mild vulgar
+trash,medium,insult,0.50,Dismissive insult
+worthless,medium,insult,0.55,Value-based insult
+pathetic,medium,insult,0.55,Contempt insult
+disgusting,medium,insult,0.50,Disgust-based insult
+ugly,medium,appearance,0.60,Physical appearance insult
+fat,medium,appearance,0.55,Body-shaming term
+dumbass,high,insult,0.75,Combined profane insult
+freak,medium,insult,0.50,Othering insult
+creep,medium,insult,0.55,Behavioral/stalking implication
+psycho,medium,stigma,0.60,Mental health stigma
+retard,high,slur,0.90,Ableist slur - highly offensive
+bitch,high,gendered,0.80,Gendered insult
+slut,high,gendered,0.85,Sexual shaming term
+whore,high,gendered,0.85,Sexual shaming term
+shut up,low,dismissal,0.35,Silencing phrase
+go away,low,exclusion,0.30,Dismissal phrase
+nobody cares,medium,exclusion,0.45,Invalidating phrase
+kill yourself,critical,threat,0.98,Suicide encouragement - SEVERE
+die,high,threat,0.75,Death wish
+regret,medium,threat,0.60,Threat implication
+consequences,medium,threat,0.55,Threat implication
+watch out,medium,threat,0.50,Warning/threat
+dickhead,high,profanity,0.82,Vulgar insult - genital reference
+dick,high,profanity,0.75,Vulgar term
+cock,high,profanity,0.78,Vulgar genital term
+cockfoam,high,profanity,0.80,Vulgar compound insult
+cock-socker,critical,profanity,0.92,Severe vulgar term
+choad,high,profanity,0.75,Vulgar genital term
+butthead,medium,profanity,0.55,Mild vulgar insult
+butt,low,profanity,0.30,Mild anatomical reference
+ass,medium,profanity,0.50,Vulgar anatomical term
+pussy,high,gendered,0.85,Gendered vulgar term
+fuck,high,profanity,0.85,Strong curse word
+fucking,high,profanity,0.85,Strong curse intensifier
+fucking prick,critical,profanity,0.92,Severe compound curse
+fucking balls,high,sexual,0.80,Vulgar sexual reference
+fuck you,high,profanity,0.88,Direct vulgar insult
+wtf,medium,profanity,0.55,Abbreviated curse
+wanker,high,profanity,0.78,British vulgar - masturbation reference
+shag,medium,sexual,0.60,British sexual term
+bollocks,medium,profanity,0.55,British vulgar
+bugger,medium,profanity,0.50,British mild profanity
+bloody hell,medium,profanity,0.45,British curse
+bloddy hell,medium,profanity,0.45,Misspelled British curse
+piss off,medium,profanity,0.55,British dismissal curse
+taking the piss,medium,profanity,0.50,British mocking phrase
+fair suck of the sav,medium,profanity,0.45,Australian vulgar
+shit,medium,profanity,0.55,Common curse
+lame,low,insult,0.35,Mild insult - ableist origin
+queer,medium,slur,0.65,LGBT slur (reclaimed by some)
+fag,high,slur,0.85,Homophobic slur
+nigga,high,slur,0.90,Racial term - context dependent
+nigger,critical,slur,0.98,Severe racial slur
+bozo,low,insult,0.40,Mild insult - fool
+dimwit,medium,insult,0.45,Intelligence insult
+duffer,medium,insult,0.45,British - incompetent person
+dog,medium,insult,0.50,Dehumanizing insult
+dirty fellow,medium,insult,0.50,Hygiene/moral insult
+monkey,high,slur,0.85,Dehumanizing/racial insult
+son of bitch,high,profanity,0.82,Maternal insult
+suck his dick,critical,sexual,0.95,Vulgar sexual command
+lick,medium,sexual,0.55,Sexual implication
+naked,medium,sexual,0.50,Nudity reference - context dependent
+sex,medium,sexual,0.45,Sexual reference - context dependent
+sexy,low,sexual,0.40,Attractiveness/inappropriate
+asexual,low,identity,0.30,Sexual orientation - can be misused
+69,medium,sexual,0.60,Sexual position reference
+balls are in as well,high,sexual,0.75,Vulgar sexual reference
+go to hell,medium,threat,0.55,Damnation phrase
+suffer,medium,threat,0.60,Pain implication
+pay for it,medium,threat,0.65,Revenge implication
+face consequences,medium,threat,0.60,Threat of punishment
+wont get away,medium,threat,0.65,Escape denial threat
+just wait and watch,medium,threat,0.55,Implied revenge
+you asked for it,medium,threat,0.60,Blame-shifting threat
+last warning,high,threat,0.75,Final threat
+serious trouble,medium,threat,0.60,Consequence warning
+escape,medium,threat,0.55,Used in threat context
+report,low,threat,0.40,Authority escalation
+complain,low,threat,0.35,Authority escalation
+expose,medium,threat,0.60,Reputation threat
+tell everyone,medium,threat,0.55,Social threat
+not invited,medium,exclusion,0.45,Explicit exclusion
+not required,medium,exclusion,0.50,Dismissive exclusion
+not needed,medium,exclusion,0.45,Dismissive exclusion
+not wanted,medium,exclusion,0.55,Rejection
+dont belong,medium,exclusion,0.55,Othering phrase
+better without,medium,exclusion,0.50,Exclusion implication
+remove yourself,medium,exclusion,0.55,Dismissal command
+leave,low,exclusion,0.35,Departure command
+get out,medium,exclusion,0.50,Strong dismissal
+back off,medium,aggression,0.50,Space demand
+mind your business,medium,aggression,0.45,Boundary setting - can be rude
+stay out,medium,aggression,0.50,Exclusion command
+dont interfere,medium,aggression,0.45,Boundary setting
+cross the line,medium,threat,0.55,Boundary warning
+push my limit,medium,threat,0.55,Patience warning
+irritating,low,insult,0.35,Annoyance expression
+annoying,low,insult,0.35,Annoyance expression
+childish,medium,insult,0.45,Maturity insult
+immature,medium,insult,0.45,Maturity insult
+embarrassing,medium,insult,0.45,Shame-based insult
+useless,medium,insult,0.50,Value-based insult
+hopeless,medium,insult,0.50,Capability insult
+clueless,medium,insult,0.45,Intelligence insult
+brainless,medium,insult,0.50,Intelligence insult
+common sense,medium,insult,0.45,Intelligence implication
+slow,low,insult,0.35,Intelligence/speed insult
+toxic,medium,behavioral,0.55,Environment descriptor
+unhealthy,low,behavioral,0.35,Environment descriptor
+negative,low,behavioral,0.30,Attitude descriptor
+problematic,medium,behavioral,0.45,Issue descriptor
+draining,medium,behavioral,0.45,Emotional impact
+exhausting,medium,behavioral,0.45,Emotional impact
+stressful,low,behavioral,0.35,Environment descriptor
+suffocating,medium,behavioral,0.50,Strong negative environment
+nonsense,low,dismissal,0.35,Content criticism
+foolish,medium,insult,0.45,Intelligence insult
+ridiculous,medium,insult,0.45,Absurdity criticism
+fake,medium,insult,0.50,Authenticity criticism
+phony,medium,insult,0.50,Authenticity criticism
+hypocrite,medium,insult,0.55,Character criticism
+liar,medium,insult,0.55,Honesty criticism
+cheat,medium,insult,0.55,Integrity criticism
+stalker,high,accusation,0.75,Harassment accusation
+stalking,high,accusation,0.75,Harassment behavior
+observing,low,stalking,0.35,Monitoring - context dependent
+watching,low,stalking,0.35,Monitoring - context dependent
+tracking,medium,stalking,0.50,Digital monitoring
+following,medium,stalking,0.45,Pursuit behavior
+always online,low,stalking,0.40,Monitoring behavior
+checking last seen,medium,stalking,0.50,Digital stalking
+profile daily,medium,stalking,0.50,Social media stalking
+story every time,medium,stalking,0.45,Social media monitoring
+spamming,medium,harassment,0.45,Excessive contact
+pinging,low,harassment,0.35,Repeated contact
+messaging,low,harassment,0.30,Contact - context dependent
+dm,low,harassment,0.30,Direct message - context dependent
+forcing conversation,medium,harassment,0.50,Unwanted contact
+bothering,medium,harassment,0.45,Persistent annoyance
+disturbing,medium,harassment,0.45,Disruption
+dont text me,medium,harassment,0.45,Boundary setting
+leave me alone,medium,harassment,0.50,Space demand
+how many times,medium,harassment,0.45,Frustration at repetition
+bar bar,medium,harassment,0.45,Again and again (Hindi/Kannada)
+late night,medium,harassment,0.50,Inappropriate timing

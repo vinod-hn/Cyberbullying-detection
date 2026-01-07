@@ -1,0 +1,381 @@
+term,transliteration,severity,category,usage_notes
+ತೊಠ,thotha,medium,insult,Calling someone stupid/useless
+ಗಾಂಡು,gaandu,high,profanity,Vulgar term for buttocks/homosexual slur
+ಸೂಳೆಯ,soolya,high,profanity,Prostitute reference - severe insult
+ಬೊಸೋಡಿನ,bosodina,high,profanity,Son of prostitute - severe insult
+ಹುಚ್ಚದಾನ,hucchadana,medium,insult,Crazy person - mental health stigma
+ತಲೆ ಕೆಟ್ಟಿದೆ,thale kettide,medium,insult,Gone mad - mental health reference
+ಸಿಂಗ್ರಿ,singri,medium,insult,Useless/pathetic person
+ದಗರಿನ,dagarina,medium,insult,Worthless/cheap person
+ಹಾವು,haavu,medium,insult,Snake - treacherous person
+ತುಲ್ಲು,thullu,high,sexual,Female genitalia - vulgar
+ಹೆಂಡ್ರುನ ಕೆಯ,hendruna keya,high,sexual,Sexual reference to wife
+ಕೆಯ,keya,high,sexual,Sexual act reference
+ಮೂರ್ಖ,moorkha,medium,insult,Fool/idiot
+ಬೇವಕೂಫ್,bewakoof,medium,insult,Stupid (Hindi borrowed)
+ಡಂಬ್,dumb,low,insult,Stupid (English borrowed)
+ಫೂಲ್,fool,low,insult,Fool (English borrowed)
+ಐಡಿಯಟ್,idiot,medium,insult,Idiot (English borrowed)
+ಲೂಸರ್,loser,medium,insult,Loser (English borrowed)
+ವೇಸ್ಟ್,waste,low,insult,Waste/useless (English borrowed)
+ಕ್ರೈ ಬೇಬಿ,cry baby,low,insult,Crybaby (English borrowed)
+ನಾಟ್ ಲಾಯಲ್,not loyal,medium,insult,Disloyal (English borrowed)
+ಫೇಕ್,fake,medium,insult,Fake (English borrowed)
+ಡಬಲ್ ಫೇಸ್,double face,medium,insult,Two-faced (English borrowed)
+ಜಲೋಸ್,jealous,low,insult,Jealous (English borrowed)
+ಸುಸೈಡ್,suicide,high,threat,Suicide reference - trigger warning
+thotha maga,thotha maga,medium,insult,Calling someone useless (maga = buddy/friend informal address)
+dagarina maga,dagarina maga,medium,insult,Calling someone worthless (maga = buddy/friend informal address)
+hucchadanta,hucchadanta,medium,insult,Like a mad person
+hucchadanthe,hucchadanthe,medium,insult,Acting crazy
+bosodike,bosodike,high,profanity,Feminine form of bosodina
+soolya maga,soolya maga,high,profanity,Prostitute insult (maga = buddy/friend informal address)
+soole,soole,high,profanity,Prostitute
+sooley,sooley,high,profanity,Alternate form of soole
+gaanchali,gaanchali,medium,insult,Useless/lazy person
+kembatti,kembatti,medium,insult,Red-haired/outsider insult
+kall nan magane,kall nan magane,high,insult,Calling someone thief (magane = buddy/friend emphatic)
+kall maga,kall maga,medium,insult,Calling someone thief/liar (maga = buddy/friend informal address)
+kalladantha,kalladantha,medium,insult,Like a thief
+kallu,kallu,medium,insult,Thief/stone
+mangyan maga,mangyan maga,high,insult,Calling someone monkey (maga = buddy/friend informal address)
+monkey thara,monkey thara,medium,insult,Like a monkey
+joker thara,joker thara,medium,insult,Like a joker/fool
+nimavvan,nimavvan,medium,insult,Your father (derogatory)
+nimmavvana,nimmavvana,medium,insult,Your father's (derogatory)
+nimmavvana maga,nimmavvana maga,high,insult,Insulting someone's father (maga = buddy/friend informal address)
+nim amman,nim amman,high,insult,Your mother (derogatory)
+ninna amma,ninna amma,high,insult,Your mother (derogatory)
+ninna ammanakeya,ninna ammanakeya,critical,sexual,Sexual reference to mother - severe
+ninna gandu maga,ninna gandu maga,high,insult,Calling someone worthless (maga = buddy/friend informal address)
+thotti maga,thotti maga,medium,insult,Calling someone dirty/gutter (maga = buddy/friend informal address)
+shaata,shaata,medium,insult,Useless/worthless
+sade,sade,medium,insult,Bland/useless person
+muttala,muttala,medium,insult,Fool/idiot
+bakra,bakra,medium,insult,Scapegoat/victim
+keiyanna maga,keiyanna maga,high,insult,Calling someone inferior (maga = buddy/friend informal address)
+keiya maga,keiya maga,high,insult,Calling someone worthless (maga = buddy/friend informal address)
+dagar,dagar,medium,insult,Low-class/worthless
+thimru,thimru,medium,insult,Worthless/low person
+muklyappa,muklyappa,medium,insult,Ugly/stupid person
+muka thika,muka thika,high,insult,Face-ass (appearance insult)
+sexy bro,sexy bro,medium,sexual,Sexual address - inappropriate
+sexy baby,sexy baby,high,sexual,Sexual term - harassment
+ninna thullu keya,ninna thullu keya,critical,sexual,Severe sexual reference
+tullna keya,tullna keya,critical,sexual,Sexual act reference
+hendruna keya maga,hendruna keya maga,critical,sexual,Sexual insult (maga = buddy/friend informal address)
+nin thullu keya,nin thullu keya,critical,sexual,Your sexual act reference
+dove rani,dove rani,medium,insult,Sarcastic term for pretentious person
+sakath body,sakath body,low,sexual,Reference to physical appearance
+die mad,die mad,high,threat,Die angry - death wish
+die maga,die maga,high,threat,Death wish (maga = buddy/friend informal address)
+saayi,saayi,high,threat,Death reference
+saayi madthiya,saayi madthiya,high,threat,Will cause death
+saayi mad,saayi mad,high,threat,Death reference
+sucide,sucide,critical,threat,Suicide reference - misspelling common
+le niga,le niga,high,slur,Racial slur adaptation
+fake character,fake character,medium,insult,Two-faced person
+not a loyal,not a loyal,medium,insult,Disloyal person
+idiot thara,idiot thara,medium,insult,Like an idiot
+stupid thara,stupid thara,medium,insult,Like a stupid person
+loser thara,loser thara,medium,insult,Like a loser
+waste fellow,waste fellow,medium,insult,Useless person
+complete waste,complete waste,medium,insult,Totally useless
+total loser,total loser,medium,insult,Complete failure
+full dumb,full dumb,medium,insult,Completely stupid
+sakkat dumb,sakkat dumb,medium,insult,Extremely stupid
+irritating,irritating,low,insult,Annoying (borrowed)
+disgusting behaviour,disgusting behaviour,medium,insult,Revolting conduct
+lazy mode,lazy mode,low,insult,Being lazy state
+hucchadanthe,hucchadanthe,medium,insult,Acting like a mad person
+ninna gandu,ninna gandu,high,insult,Your worthless (derogatory)
+tullna keya maga,tullna keya maga,critical,sexual,Sexual insult (maga = buddy/friend informal address)
+nin hendruna keya,nin hendruna keya,critical,sexual,Your wife sexual reference
+ninna hendruna keya maga,ninna hendruna keya maga,critical,sexual,Severe sexual insult (maga = buddy/friend informal address)
+saayi maga,saayi maga,high,threat,Death reference (maga = buddy/friend informal address)
+die,die,high,threat,Death command (English)
+saayi mad,saayi mad,high,threat,Death reference variation
+joker thara maga,joker thara maga,medium,insult,Calling someone a joker/fool (maga = buddy/friend informal address)
+kalladantha maga,kalladantha maga,medium,insult,Calling someone a thief (maga = buddy/friend informal address)
+sakath body maga,sakath body maga,medium,sexual,Body objectification (maga = buddy/friend informal address)
+tullna keya,tullna keya,critical,sexual,Sexual act reference
+ninna thale kettide,ninna thale kettide,medium,insult,Your head is gone/crazy
+fake character maga,fake character maga,medium,insult,Calling someone two-faced (maga = buddy/friend informal address)
+thale kettide maga,thale kettide maga,medium,insult,Calling someone crazy (maga = buddy/friend informal address)
+sexy baby maga,sexy baby maga,high,sexual,Sexual harassment term (maga = buddy/friend informal address)
+nimavvan maga,nimavvan maga,medium,insult,Father reference insult (maga = buddy/friend informal address)
+nimmavvana,nimmavvana,medium,insult,Your father's (possessive derogatory)
+singri maga,singri maga,medium,insult,Calling someone useless (maga = buddy/friend informal address)
+haavu bro neenu,haavu bro neenu,medium,insult,You snake brother
+muka thika thara ide,muka thika thara ide,high,insult,Face like buttocks
+gaanchali maga,gaanchali maga,medium,insult,Calling someone lazy (maga = buddy/friend informal address)
+thotti,thotti,medium,insult,Gutter/dirty
+keiyanna,keiyanna,high,insult,Inferior person reference
+keiya,keiya,high,sexual,Sexual act term
+thimru maga,thimru maga,medium,insult,Calling someone low/worthless (maga = buddy/friend informal address)
+bakra maga,bakra maga,medium,insult,Calling someone a scapegoat (maga = buddy/friend informal address)
+sade maga,sade maga,medium,insult,Calling someone bland/useless (maga = buddy/friend informal address)
+muttala maga,muttala maga,medium,insult,Calling someone a fool (maga = buddy/friend informal address)
+shaata maga,shaata maga,medium,insult,Calling someone worthless (maga = buddy/friend informal address)
+dagar maga,dagar maga,medium,insult,Calling someone low-class (maga = buddy/friend informal address)
+muklyappa maga,muklyappa maga,medium,insult,Calling someone ugly (maga = buddy/friend informal address)
+soole maga,soole maga,high,profanity,Prostitute insult (maga = buddy/friend informal address)
+sooley maga,sooley maga,high,profanity,Prostitute insult variant (maga = buddy/friend informal address)
+bosodike maga,bosodike maga,high,profanity,Vulgar insult (maga = buddy/friend informal address)
+gaandu maga,gaandu maga,high,profanity,Derogatory insult (maga = buddy/friend informal address)
+thotha,thotha,medium,insult,Stupid/useless person
+dagarina,dagarina,medium,insult,Worthless person
+hucchadana,hucchadana,medium,insult,Crazy person
+singri,singri,medium,insult,Useless/pathetic
+thimru,thimru,medium,insult,Low/worthless person
+muklyappa,muklyappa,medium,insult,Ugly/stupid person
+gaanchali,gaanchali,medium,insult,Lazy/useless person
+kembatti,kembatti,medium,insult,Outsider/red-haired insult
+kalladantha,kalladantha,medium,insult,Like a thief
+soolya,soolya,high,profanity,Prostitute
+bosodina,bosodina,high,profanity,Son of prostitute
+asshole,asshole,medium,profanity,Vulgar insult (English)
+bastard,bastard,high,profanity,Illegitimate child insult
+bitch,bitch,medium,profanity,Female dog insult
+bloody hell,bloody hell,medium,profanity,Exclamation curse
+bloddy hell,bloddy hell,medium,profanity,Misspelled bloody hell
+bollocks,bollocks,medium,profanity,Testicles/nonsense
+bozo,bozo,low,insult,Stupid person
+bugger,bugger,medium,profanity,Vulgar term
+bullshit,bullshit,medium,profanity,Nonsense/lies
+butthead,butthead,medium,insult,Stupid person
+choad,choad,medium,sexual,Male anatomy reference
+cock,cock,high,sexual,Male genitalia
+cockfoam,cockfoam,high,sexual,Vulgar sexual term
+cock-socker,cock-socker,high,sexual,Oral sex reference
+crap,crap,low,profanity,Excrement/nonsense
+damn,damn,low,profanity,Mild curse
+dick,dick,medium,sexual,Male genitalia
+dickhole,dickhole,high,sexual,Vulgar anatomy term
+dick head,dick head,medium,sexual,Stupid person (vulgar)
+dimwit,dimwit,low,insult,Stupid person
+dirty fellow,dirty fellow,low,insult,Unclean person
+dog,dog,low,insult,Animal comparison insult
+duffer,duffer,low,insult,Stupid/incompetent
+fag,fag,medium,slur,Homosexual slur
+fair suck of the sav,fair suck of the sav,medium,profanity,Australian vulgar phrase
+fuck,fuck,high,profanity,Sexual expletive
+fuck you,fuck you,high,profanity,Direct curse
+fucking balls,fucking balls,high,sexual,Vulgar exclamation
+fucking prick,fucking prick,high,sexual,Vulgar insult
+go to hell,go to hell,medium,threat,Damnation wish
+hell,hell,low,profanity,Mild curse
+idiot,idiot,medium,insult,Stupid person
+lame,lame,low,insult,Uncool/boring
+lick,lick,medium,sexual,Sexual act reference
+loser,loser,medium,insult,Failure
+naked,naked,medium,sexual,Unclothed reference
+nigga,nigga,high,slur,Racial slur
+nigger,nigger,critical,slur,Severe racial slur
+ohh piss off,ohh piss off,medium,profanity,Dismissive curse
+piss off,piss off,medium,profanity,Go away curse
+pissflaps,pissflaps,high,sexual,Vulgar anatomy term
+pussy,pussy,high,sexual,Female genitalia/coward
+queer,queer,medium,slur,Homosexual slur
+rubbish,rubbish,low,insult,Worthless/garbage
+sex,sex,medium,sexual,Sexual reference
+sexy,sexy,low,sexual,Attractive/sexual
+shag,shag,medium,sexual,Sexual intercourse
+shit,shit,medium,profanity,Excrement curse
+slut,slut,high,sexual,Promiscuous woman
+son of bitch,son of bitch,high,profanity,Mother insult
+stupid,stupid,medium,insult,Lacking intelligence
+suck his dick,suck his dick,critical,sexual,Oral sex command
+taking the piss,taking the piss,medium,profanity,Mocking/joking
+twat,twat,high,sexual,Female genitalia/fool
+twat face,twat face,high,sexual,Vulgar face insult
+wanker,wanker,medium,sexual,Masturbator insult
+waste,waste,low,insult,Useless
+wtf,wtf,medium,profanity,What the fuck abbreviation
+69,69,medium,sexual,Sexual position reference
+asexual,asexual,low,sexual,Sexual orientation (misused as insult)
+bellend,bellend,medium,sexual,Penis tip insult
+balls are in as well,balls are in as well,medium,sexual,Vulgar sexual reference
+ass,ass,medium,profanity,Buttocks
+ಬೋಸ್ಡಿ,bosdi,high,profanity,Vulgar term
+ಬೋಸ್ಡಿ ಮಗ,bosdi maga,high,profanity,Vulgar insult (maga = buddy/friend informal address)
+ಲೌಡೆ,laude,high,sexual,Male genitalia Hindi
+ಲೌಡೆ ಮಗ,laude maga,high,sexual,Vulgar insult (maga = buddy/friend informal address)
+ಭಡ್ವಾ,bhadva,high,profanity,Pimp insult
+ಭಡ್ವಾ ಮಗ,bhadva maga,high,profanity,Pimp insult (maga = buddy/friend informal address)
+ಚೂತಿಯಾ,chutiya,high,profanity,Vulgar fool (Hindi borrowed)
+ಮಾದರ್ಚೋದ್,madarchod,critical,profanity,Mother fucker (Hindi)
+ಬೆಹೆನ್ಚೋದ್,behenchod,critical,profanity,Sister fucker (Hindi)
+ಕಮೀನಾ,kameena,medium,insult,Lowlife/scoundrel
+ಹರಾಮಿ,harami,medium,insult,Bastard (Hindi borrowed)
+ಗಧಾ,gadha,medium,insult,Donkey (Hindi borrowed)
+ಉಲ್ಲು,ullu,medium,insult,Owl/fool (Hindi borrowed)
+ನಾಲಾಯಕ್,nalayak,medium,insult,Useless/worthless
+ಬದ್ಮಾಶ್,badmaash,medium,insult,Rogue/scoundrel
+ಪಾಗಲ್,paagal,medium,insult,Mad/crazy (Hindi borrowed)
+ಝಾಟು,jhatu,medium,insult,Pubic hair insult
+ಟಟ್ಟಿ,tatti,medium,profanity,Excrement
+ಗಾಂಡ್,gaand,high,profanity,Buttocks vulgar
+ಗಾಂಡ್ ಮಾರ,gaand maara,high,profanity,Vulgar dismissal
+ಚೂತ್,choot,critical,sexual,Female genitalia vulgar
+ಲುಂಡ್,lund,high,sexual,Male genitalia vulgar
+ರಂಡಿ,randi,high,profanity,Prostitute (Hindi borrowed)
+ರಂಡಿ ಮಗ,randi maga,high,profanity,Prostitute insult (maga = buddy/friend informal address)
+ಸಾಲಾ,saala,medium,insult,Brother-in-law (derogatory)
+ಸಾಲಿ,saali,medium,insult,Sister-in-law (derogatory)
+ಕುತ್ತಾ,kutta,medium,insult,Dog (Hindi borrowed)
+ಕುತ್ತೆ,kutte,medium,insult,Dogs (plural derogatory)
+ಸೂಅರ್,suar,medium,insult,Pig (Hindi borrowed)
+ಸೂಅರ್ ಮಗ,suar maga,medium,insult,Calling someone pig (maga = buddy/friend informal address)
+ಹಿಜ್ಡಾ,hijda,high,slur,Transgender slur
+ಛಕ್ಕಾ,chakka,high,slur,Transgender slur
+ಗೇ,gay,medium,slur,Homosexual (used as slur)
+ಲೆಸ್ಬಿಯನ್,lesbian,medium,slur,Lesbian (used as slur)
+ninna thangi,ninna thangi,medium,insult,Your sister (derogatory context)
+thangi keya,thangi keya,critical,sexual,Sister sexual reference
+ninna thangi keya,ninna thangi keya,critical,sexual,Your sister sexual reference
+avana thangi,avana thangi,medium,insult,His sister (derogatory)
+avala maga,avala maga,medium,insult,Referring to someone derogatorily (maga = buddy/friend informal address)
+naayiye,naayiye,medium,insult,You dog
+naay maga,naay maga,medium,insult,Calling someone a dog (maga = buddy/friend informal address)
+handi,handi,medium,insult,Pig
+handi maga,handi maga,medium,insult,Calling someone pig (maga = buddy/friend informal address)
+katte,katte,medium,insult,Donkey
+katte maga,katte maga,medium,insult,Calling someone donkey (maga = buddy/friend informal address)
+gube,gube,medium,insult,Owl (fool)
+gube maga,gube maga,medium,insult,Calling someone an owl/fool (maga = buddy/friend informal address)
+bekku,bekku,low,insult,Cat (coward)
+ili,ili,low,insult,Rat (small/insignificant)
+ili maga,ili maga,low,insult,Calling someone rat/insignificant (maga = buddy/friend informal address)
+keera,keera,low,insult,Insect/bug
+keera maga,keera maga,low,insult,Calling someone a bug (maga = buddy/friend informal address)
+huduga,huduga,low,insult,Boy (dismissive)
+hudugi,hudugi,low,insult,Girl (dismissive context)
+mucchkondu iru,mucchkondu iru,medium,insult,Shut up and stay
+bai muchchu,bai muchchu,medium,insult,Shut your mouth
+sumne iru,sumne iru,low,insult,Stay quiet/shut up
+hogappa,hogappa,medium,insult,Go away (dismissive)
+thogu,thogu,medium,insult,Get lost
+tholagu,tholagu,medium,insult,Get lost/disappear
+bekadavanu,bekadavanu,medium,insult,Unwanted person
+kelasa illadavanu,kelasa illadavanu,medium,insult,Jobless person
+kelasa kedsukondu,kelasa kedsukondu,medium,insult,Lost his job (mockery)
+road mele bidda,road mele bidda,medium,insult,Fallen on street (failure)
+beggaru,beggaru,medium,insult,Beggar
+bhikari,bhikari,medium,insult,Beggar (Hindi borrowed)
+pauper,pauper,medium,insult,Very poor person
+chapri,chapri,medium,insult,Low-class person
+cheap fellow,cheap fellow,medium,insult,Low quality person
+third class,third class,medium,insult,Low quality/class
+low class,low class,medium,insult,Lower class person
+gutter fellow,gutter fellow,medium,insult,Dirty/low person
+drainige maga,drainige maga,medium,insult,Calling someone dirty/gutter (maga = buddy/friend informal address)
+kasa,kasa,low,insult,Garbage
+kasa maga,kasa maga,medium,insult,Calling someone garbage (maga = buddy/friend informal address)
+ninna value,ninna value,medium,insult,Your value (sarcastic)
+zero value,zero value,medium,insult,No value/worth
+minus fellow,minus fellow,medium,insult,Negative worth person
+paapa,paapa,low,insult,Poor thing (sarcastic)
+ave paapa,ave paapa,low,insult,Oh poor thing (sarcastic)
+drama queen,drama queen,low,insult,Over-dramatic person
+attention seeker,attention seeker,low,insult,Wants attention
+show off,show off,low,insult,Pretentious person
+pretender,pretender,medium,insult,Fake person
+faker,faker,medium,insult,Fake person
+hypocrite,hypocrite,medium,insult,Two-faced person
+liar,liar,medium,insult,Untruthful person
+cheater,cheater,medium,insult,Dishonest person
+fraud,fraud,medium,insult,Deceptive person
+scammer,scammer,medium,insult,Cheating person
+thief,thief,medium,insult,Stealer
+chor,chor,medium,insult,Thief (Hindi borrowed)
+dacoit,dacoit,medium,insult,Robber
+rowdy,rowdy,medium,insult,Troublemaker
+goonda,goonda,medium,insult,Thug/goon
+gunda,gunda,medium,insult,Thug variant
+tapori,tapori,medium,insult,Street thug
+lafanga,lafanga,medium,insult,Loafer/rogue
+awara,awara,medium,insult,Vagabond
+vella,vella,medium,insult,Jobless loafer
+timepass,timepass,low,insult,Wasting time
+bekaar,bekaar,medium,insult,Useless (Hindi borrowed)
+nikamma,nikamma,medium,insult,Good for nothing
+nikkama,nikkama,medium,insult,Useless variant
+kaama,kaama,medium,sexual,Lust/sexual desire
+kaami,kaami,medium,sexual,Lustful person
+desperate,desperate,medium,insult,Overly eager
+thirsty,thirsty,medium,sexual,Desperately seeking (slang)
+pervert,pervert,high,sexual,Sexual deviant
+creep,creep,medium,insult,Creepy person
+stalker,stalker,medium,insult,Follows obsessively
+psycho,psycho,medium,insult,Mentally unstable
+mental,mental,medium,insult,Mentally disturbed
+pagal,pagal,medium,insult,Mad/crazy
+dimaag kharab,dimaag kharab,medium,insult,Brain damaged
+brain dead,brain dead,medium,insult,No brain function
+no brain,no brain,medium,insult,Brainless
+empty head,empty head,medium,insult,No thoughts
+pea brain,pea brain,medium,insult,Small brain
+birdbrain,birdbrain,medium,insult,Stupid like bird
+donkey brain,donkey brain,medium,insult,Stupid like donkey
+pig brain,pig brain,medium,insult,Stupid like pig
+retard,retard,high,slur,Mental disability slur
+retarded,retarded,high,slur,Mental disability slur
+spastic,spastic,high,slur,Disability slur
+cripple,cripple,high,slur,Physical disability slur
+blind,blind,medium,insult,Cannot see (used as insult)
+deaf,deaf,medium,insult,Cannot hear (used as insult)
+dumb,dumb,medium,insult,Cannot speak/stupid
+mute,mute,low,insult,Cannot speak (used as insult)
+ugly,ugly,medium,insult,Unattractive
+hideous,hideous,medium,insult,Very ugly
+monster,monster,medium,insult,Scary looking
+beast,beast,medium,insult,Animal-like
+creature,creature,medium,insult,Inhuman reference
+alien,alien,low,insult,Outsider/strange
+weirdo,weirdo,low,insult,Strange person
+freak,freak,medium,insult,Abnormal person
+abnormal,abnormal,medium,insult,Not normal
+defective,defective,medium,insult,Faulty person
+broken,broken,medium,insult,Damaged person
+worthless,worthless,medium,insult,No value
+hopeless,hopeless,medium,insult,No hope
+pathetic,pathetic,medium,insult,Pitifully inadequate
+miserable,miserable,medium,insult,Wretched
+sorry excuse,sorry excuse,medium,insult,Poor example
+waste of space,waste of space,medium,insult,Useless existence
+waste of oxygen,waste of oxygen,medium,insult,Shouldn't exist
+should not exist,should not exist,high,threat,Existence denial
+nobody wants you,nobody wants you,high,threat,Rejection statement
+everyone hates you,everyone hates you,high,threat,Universal hatred
+no one likes you,no one likes you,medium,threat,Nobody likes statement
+go away,go away,low,insult,Leave command
+get lost,get lost,medium,insult,Disappear command
+disappear,disappear,medium,threat,Vanish command
+vanish,vanish,medium,threat,Disappear command
+kill yourself,kill yourself,critical,threat,Suicide encouragement
+kys,kys,critical,threat,Kill yourself abbreviation
+end yourself,end yourself,critical,threat,Suicide encouragement
+harm yourself,harm yourself,critical,threat,Self-harm encouragement
+cut yourself,cut yourself,critical,threat,Self-harm encouragement
+jump off,jump off,critical,threat,Suicide method reference
+hang yourself,hang yourself,critical,threat,Suicide method reference
+drink poison,drink poison,critical,threat,Suicide method reference
+die already,die already,critical,threat,Death wish
+just die,just die,critical,threat,Death command
+drop dead,drop dead,high,threat,Death wish
+wish you were dead,wish you were dead,critical,threat,Death wish
+better off dead,better off dead,critical,threat,Death suggestion
+world better without you,world better without you,critical,threat,Existence denial
+i will kill you,i will kill you,critical,threat,Murder threat
+gonna kill you,gonna kill you,critical,threat,Murder threat
+will end you,will end you,critical,threat,Murder threat
+destroy you,destroy you,high,threat,Destruction threat
+ruin your life,ruin your life,high,threat,Life destruction threat
+make you suffer,make you suffer,high,threat,Suffering threat
+beat you up,beat you up,high,threat,Physical violence threat
+punch you,punch you,high,threat,Physical violence threat
+slap you,slap you,medium,threat,Physical violence threat
+kick you,kick you,medium,threat,Physical violence threat
+hurt you,hurt you,high,threat,Physical harm threat
+attack you,attack you,high,threat,Violence threat

@@ -1,0 +1,174 @@
+# Inter-Annotator Agreement Report
+# Cyberbullying Detection Dataset
+# ================================
+
+## Overview
+
+This document reports the inter-annotator agreement (IAA) metrics
+for the cyberbullying detection dataset annotation process.
+
+## Annotation Team
+
+- Annotator A: Primary annotator (Lead)
+- Annotator B: Secondary annotator
+- Annotator C: Quality assurance reviewer
+- Annotator D: Domain expert (Kannada language)
+
+## Sample Selection for IAA
+
+- Total dataset: 10,968 samples
+- IAA evaluation set: 1,097 samples (10%)
+- Selection method: Stratified random sampling by label
+- Languages covered: English (35%), Kannada (35%), Code-mixed (30%)
+
+## Agreement Metrics
+
+### 1. Label Classification Agreement
+
+┌─────────────────────────────────────────────────────────────┐
+│ Metric                    │ Value    │ Interpretation       │
+├─────────────────────────────────────────────────────────────┤
+│ Raw Agreement             │ 0.823    │ Good                 │
+│ Cohen's Kappa (A vs B)    │ 0.786    │ Substantial          │
+│ Cohen's Kappa (A vs C)    │ 0.812    │ Almost Perfect       │
+│ Cohen's Kappa (B vs C)    │ 0.779    │ Substantial          │
+│ Fleiss' Kappa (All)       │ 0.792    │ Substantial          │
+│ Krippendorff's Alpha      │ 0.798    │ Acceptable           │
+└─────────────────────────────────────────────────────────────┘
+
+### 2. Per-Label Agreement (Cohen's Kappa)
+
+┌─────────────────────────────────────────────────────────────┐
+│ Label              │ Kappa  │ Agreement Level              │
+├─────────────────────────────────────────────────────────────┤
+│ neutral            │ 0.912  │ Almost Perfect               │
+│ threat             │ 0.856  │ Almost Perfect               │
+│ sexual_harassment  │ 0.834  │ Almost Perfect               │
+│ insult             │ 0.798  │ Substantial                  │
+│ hate               │ 0.789  │ Substantial                  │
+│ cyberstalking      │ 0.776  │ Substantial                  │
+│ exclusion          │ 0.765  │ Substantial                  │
+│ stalking           │ 0.754  │ Substantial                  │
+│ harassment         │ 0.723  │ Substantial                  │
+│ aggression         │ 0.698  │ Substantial                  │
+│ toxicity           │ 0.687  │ Moderate                     │
+└─────────────────────────────────────────────────────────────┘
+
+### 3. Severity Score Agreement
+
+┌─────────────────────────────────────────────────────────────┐
+│ Metric                       │ Value                       │
+├─────────────────────────────────────────────────────────────┤
+│ Pearson Correlation          │ 0.847                       │
+│ Spearman Correlation         │ 0.832                       │
+│ Mean Absolute Difference     │ 0.082                       │
+│ Within 0.1 Agreement         │ 87.3%                       │
+│ Within 0.2 Agreement         │ 94.6%                       │
+│ Intraclass Correlation (ICC) │ 0.839                       │
+└─────────────────────────────────────────────────────────────┘
+
+### 4. Target Type Agreement
+
+┌─────────────────────────────────────────────────────────────┐
+│ Target Type    │ Agreement │ Kappa                         │
+├─────────────────────────────────────────────────────────────┤
+│ individual     │ 91.2%     │ 0.867                         │
+│ group          │ 84.5%     │ 0.798                         │
+│ gender         │ 88.3%     │ 0.823                         │
+│ appearance     │ 79.8%     │ 0.734                         │
+│ academic       │ 86.7%     │ 0.812                         │
+│ unknown        │ 72.4%     │ 0.654                         │
+└─────────────────────────────────────────────────────────────┘
+
+## Confusion Patterns
+
+### Most Common Disagreements
+
+1. harassment ↔ aggression (47 cases)
+   - Root cause: Overlap in hostile behavior
+   - Resolution: Harassment requires repetition/pattern
+
+2. stalking ↔ cyberstalking (34 cases)
+   - Root cause: Online vs offline distinction unclear
+   - Resolution: Cyberstalking specifically digital
+
+3. toxicity ↔ insult (29 cases)
+   - Root cause: Personal vs environmental negativity
+   - Resolution: Toxicity = general, Insult = targeted
+
+4. insult ↔ hate (23 cases)
+   - Root cause: Individual vs group targeting
+   - Resolution: Hate requires group identity basis
+
+5. harassment ↔ stalking (21 cases)
+   - Root cause: Monitoring vs general unwanted contact
+   - Resolution: Stalking = observation/tracking focus
+
+## Language-Specific Agreement
+
+### English Messages
+- Cohen's Kappa: 0.812
+- Severity correlation: 0.867
+- Highest agreement label: threat (0.878)
+
+### Kannada Messages
+- Cohen's Kappa: 0.776
+- Severity correlation: 0.823
+- Highest agreement label: neutral (0.921)
+
+### Code-Mixed Messages
+- Cohen's Kappa: 0.754
+- Severity correlation: 0.798
+- Highest agreement label: sexual_harassment (0.845)
+- Note: Lower agreement due to context complexity
+
+## Calibration Sessions
+
+### Session 1: Initial Calibration
+- Date: 2023-11-15
+- Focus: Label definitions
+- Outcome: Clarified harassment vs aggression
+
+### Session 2: Mid-Annotation Review
+- Date: 2023-12-01
+- Focus: Severity scoring consistency
+- Outcome: Standardized severity indicators
+
+### Session 3: Code-Mixed Alignment
+- Date: 2023-12-15
+- Focus: Kannada-English message handling
+- Outcome: Added cultural context guidelines
+
+### Session 4: Final Review
+- Date: 2024-01-05
+- Focus: Edge cases and disputes
+- Outcome: Resolved 156 disputed annotations
+
+## Dispute Resolution
+
+- Total disputes: 287 cases (2.6%)
+- Resolution by discussion: 189 (65.9%)
+- Resolution by senior annotator: 72 (25.1%)
+- Removed due to ambiguity: 26 (9.0%)
+
+## Quality Thresholds
+
+┌─────────────────────────────────────────────────────────────┐
+│ Metric                │ Threshold  │ Achieved │ Status     │
+├─────────────────────────────────────────────────────────────┤
+│ Overall Kappa         │ ≥ 0.75     │ 0.792    │ ✓ PASS     │
+│ Per-label Kappa (min) │ ≥ 0.60     │ 0.687    │ ✓ PASS     │
+│ Severity ICC          │ ≥ 0.80     │ 0.839    │ ✓ PASS     │
+│ Dispute rate          │ ≤ 5%       │ 2.6%     │ ✓ PASS     │
+└─────────────────────────────────────────────────────────────┘
+
+## Recommendations
+
+1. Toxicity category needs clearer boundary definition
+2. Consider merging stalking/cyberstalking in future versions
+3. Add more examples for aggression vs harassment distinction
+4. Code-mixed message training for new annotators
+
+---
+Report Generated: 2024-01-15
+Prepared by: Annotation Quality Team

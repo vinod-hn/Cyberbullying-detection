@@ -1,0 +1,168 @@
+{
+  "dataset_info": {
+    "name": "Cyberbullying Detection Dataset - Kannada/English",
+    "version": "1.0",
+    "created_date": "2024-01-15",
+    "total_samples": 10968,
+    "languages": ["English", "Kannada", "Kannada-English Code-Mixed"],
+    "domain": "Social Media / Academic Groups"
+  },
+  "label_distribution": {
+    "total_labels": 11,
+    "counts": {
+      "insult": 2223,
+      "neutral": 2112,
+      "harassment": 1709,
+      "threat": 1009,
+      "exclusion": 899,
+      "aggression": 656,
+      "toxicity": 589,
+      "stalking": 540,
+      "sexual_harassment": 519,
+      "hate": 508,
+      "cyberstalking": 204
+    },
+    "percentages": {
+      "insult": 20.27,
+      "neutral": 19.26,
+      "harassment": 15.58,
+      "threat": 9.20,
+      "exclusion": 8.20,
+      "aggression": 5.98,
+      "toxicity": 5.37,
+      "stalking": 4.92,
+      "sexual_harassment": 4.73,
+      "hate": 4.63,
+      "cyberstalking": 1.86
+    }
+  },
+  "source_distribution": {
+    "kannada.csv": {
+      "count": 4000,
+      "percentage": 36.47,
+      "language": "Kannada",
+      "characteristics": "Local slang, hash-based user IDs"
+    },
+    "english.csv": {
+      "count": 2000,
+      "percentage": 18.24,
+      "language": "English",
+      "characteristics": "Standard English messages"
+    },
+    "kannad english.csv": {
+      "count": 2000,
+      "percentage": 18.24,
+      "language": "Code-Mixed",
+      "characteristics": "Kannada-English mixing"
+    },
+    "bad_words.csv": {
+      "count": 2000,
+      "percentage": 18.24,
+      "language": "Mixed",
+      "characteristics": "Profanity-focused samples"
+    },
+    "emoji_cyberbullying_dataset.csv": {
+      "count": 1120,
+      "percentage": 10.21,
+      "language": "English",
+      "characteristics": "Emoji-rich messages"
+    }
+  },
+  "split_distribution": {
+    "train": {
+      "count": 7677,
+      "percentage": 70.0,
+      "file": "train_data.csv"
+    },
+    "validation": {
+      "count": 1645,
+      "percentage": 15.0,
+      "file": "val_data.csv"
+    },
+    "test": {
+      "count": 1646,
+      "percentage": 15.0,
+      "file": "test_data.csv"
+    }
+  },
+  "severity_distribution": {
+    "low": {
+      "count": 3842,
+      "percentage": 35.03,
+      "score_range": "0.00 - 0.33"
+    },
+    "medium": {
+      "count": 4891,
+      "percentage": 44.59,
+      "score_range": "0.34 - 0.66"
+    },
+    "high": {
+      "count": 2235,
+      "percentage": 20.38,
+      "score_range": "0.67 - 1.00"
+    }
+  },
+  "target_type_distribution": {
+    "individual": 6523,
+    "group": 1854,
+    "appearance": 987,
+    "academic": 654,
+    "gender": 521,
+    "unknown": 429
+  },
+  "text_statistics": {
+    "average_length_chars": 67.4,
+    "median_length_chars": 58,
+    "min_length_chars": 8,
+    "max_length_chars": 487,
+    "average_word_count": 12.3,
+    "median_word_count": 10
+  },
+  "class_balance": {
+    "imbalance_ratio": 10.9,
+    "majority_class": "insult",
+    "minority_class": "cyberstalking",
+    "recommended_strategy": "SMOTE or class weights"
+  },
+  "label_per_split": {
+    "train": {
+      "insult": 1556,
+      "neutral": 1478,
+      "harassment": 1196,
+      "threat": 706,
+      "exclusion": 629,
+      "aggression": 459,
+      "toxicity": 412,
+      "stalking": 378,
+      "sexual_harassment": 363,
+      "hate": 356,
+      "cyberstalking": 144
+    },
+    "validation": {
+      "insult": 333,
+      "neutral": 317,
+      "harassment": 256,
+      "threat": 151,
+      "exclusion": 135,
+      "aggression": 98,
+      "toxicity": 89,
+      "stalking": 81,
+      "sexual_harassment": 78,
+      "hate": 76,
+      "cyberstalking": 31
+    },
+    "test": {
+      "insult": 334,
+      "neutral": 317,
+      "harassment": 257,
+      "threat": 152,
+      "exclusion": 135,
+      "aggression": 99,
+      "toxicity": 88,
+      "stalking": 81,
+      "sexual_harassment": 78,
+      "hate": 76,
+      "cyberstalking": 29
+    }
+  }
+}

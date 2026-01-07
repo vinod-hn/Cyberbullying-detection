@@ -1,0 +1,380 @@
+{
+    "version": "1.0.0",
+    "description": "Feature extraction configuration for Kannada-English cyberbullying detection",
+    
+    "global": {
+        "language": ["kannada", "english"],
+        "code_mixed": true,
+        "kannada_unicode_range": ["0x0C80", "0x0CFF"],
+        "max_text_length": 512,
+        "batch_size": 32
+    },
+    
+    "text_embeddings": {
+        "enabled": true,
+        "default_method": "tfidf",
+        
+        "tfidf": {
+            "enabled": true,
+            "max_features": 10000,
+            "ngram_range": [1, 3],
+            "min_df": 2,
+            "max_df": 0.95,
+            "sublinear_tf": true,
+            "use_idf": true
+        },
+        
+        "word2vec": {
+            "enabled": true,
+            "vector_size": 300,
+            "window": 5,
+            "min_count": 2,
+            "workers": 4,
+            "epochs": 10,
+            "sg": 1
+        },
+        
+        "fasttext": {
+            "enabled": true,
+            "vector_size": 300,
+            "window": 5,
+            "min_count": 2,
+            "min_n": 3,
+            "max_n": 6,
+            "workers": 4,
+            "epochs": 10
+        }
+    },
+    
+    "transformer_embeddings": {
+        "enabled": true,
+        "default_model": "mbert",
+        
+        "models": {
+            "mbert": {
+                "model_name": "bert-base-multilingual-cased",
+                "max_length": 512,
+                "pooling": "mean",
+                "enabled": true
+            },
+            "indic-bert": {
+                "model_name": "ai4bharat/indic-bert",
+                "max_length": 512,
+                "pooling": "mean",
+                "enabled": true
+            },
+            "xlm-roberta": {
+                "model_name": "xlm-roberta-base",
+                "max_length": 512,
+                "pooling": "mean",
+                "enabled": false
+            },
+            "distilbert": {
+                "model_name": "distilbert-base-multilingual-cased",
+                "max_length": 512,
+                "pooling": "mean",
+                "enabled": false
+            }
+        },
+        
+        "device": "auto",
+        "batch_size": 16
+    },
+    
+    "linguistic_features": {
+        "enabled": true,
+        
+        "lexical": {
+            "enabled": true,
+            "features": [
+                "word_count",
+                "char_count",
+                "avg_word_length",
+                "unique_word_ratio",
+                "caps_ratio",
+                "punct_ratio",
+                "digit_ratio"
+            ]
+        },
+        
+        "syntactic": {
+            "enabled": true,
+            "features": [
+                "pos_distribution",
+                "noun_ratio",
+                "verb_ratio",
+                "adj_ratio",
+                "sentence_count",
+                "avg_sentence_length"
+            ]
+        },
+        
+        "semantic": {
+            "enabled": true,
+            "features": [
+                "sentiment_polarity",
+                "sentiment_subjectivity",
+                "aggression_indicators",
+                "profanity_count"
+            ],
+            "use_textblob": true
+        },
+        
+        "readability": {
+            "enabled": true,
+            "features": [
+                "flesch_reading_ease",
+                "syllable_count",
+                "complex_word_ratio"
+            ]
+        },
+        
+        "code_mix": {
+            "enabled": true,
+            "features": [
+                "code_mix_index",
+                "kannada_ratio",
+                "english_ratio",
+                "switch_points"
+            ]
+        }
+    },
+    
+    "emoji_features": {
+        "enabled": true,
+        "emoji_semantics_path": "../00_data/lexicon/emoji_semantics.json",
+        
+        "count_features": {
+            "enabled": true,
+            "features": [
+                "total_emoji_count",
+                "unique_emoji_count",
+                "emoji_diversity",
+                "emoji_density"
+            ]
+        },
+        
+        "sentiment_features": {
+            "enabled": true,
+            "features": [
+                "positive_emoji_count",
+                "negative_emoji_count",
+                "emoji_sentiment_score",
+                "emoji_sentiment_contrast"
+            ]
+        },
+        
+        "category_features": {
+            "enabled": true,
+            "categories": [
+                "offensive",
+                "aggressive",
+                "threatening",
+                "mocking",
+                "body_shaming",
+                "sexual_harassment",
+                "positive",
+                "neutral"
+            ]
+        },
+        
+        "pattern_features": {
+            "enabled": true,
+            "detect_repetition": true,
+            "detect_sequences": true,
+            "detect_clusters": true
+        }
+    },
+    
+    "contextual_features": {
+        "enabled": true,
+        
+        "position_features": {
+            "enabled": true,
+            "features": [
+                "position_ratio",
+                "is_first_message",
+                "is_conversation_starter"
+            ]
+        },
+        
+        "mention_features": {
+            "enabled": true,
+            "features": [
+                "mention_count",
+                "self_mention_ratio",
+                "direct_address"
+            ]
+        },
+        
+        "response_features": {
+            "enabled": true,
+            "features": [
+                "has_reply_context",
+                "response_time",
+                "thread_depth"
+            ]
+        },
+        
+        "escalation_features": {
+            "enabled": true,
+            "features": [
+                "escalation_score",
+                "severity_progression",
+                "is_escalating"
+            ],
+            "window_size": 5
+        },
+        
+        "temporal_features": {
+            "enabled": true,
+            "features": [
+                "hour_of_day",
+                "day_of_week",
+                "is_late_night"
+            ]
+        }
+    },
+    
+    "behavioral_features": {
+        "enabled": true,
+        
+        "user_profiling": {
+            "enabled": true,
+            "features": [
+                "message_frequency",
+                "avg_severity",
+                "target_diversity",
+                "time_span_days"
+            ],
+            "min_messages_for_profile": 3
+        },
+        
+        "frequency_features": {
+            "enabled": true,
+            "features": [
+                "messages_per_day",
+                "harassment_rate",
+                "peak_activity"
+            ]
+        },
+        
+        "persistence_features": {
+            "enabled": true,
+            "features": [
+                "repeated_targeting",
+                "target_focus_score",
+                "days_active"
+            ]
+        },
+        
+        "campaign_detection": {
+            "enabled": true,
+            "features": [
+                "is_coordinated",
+                "campaign_score",
+                "participants"
+            ],
+            "time_window_hours": 24,
+            "min_attackers": 2
+        },
+        
+        "risk_scoring": {
+            "enabled": true,
+            "weights": {
+                "severity_weight": 0.3,
+                "frequency_weight": 0.25,
+                "persistence_weight": 0.25,
+                "target_focus_weight": 0.2
+            }
+        }
+    },
+    
+    "sarcasm_detection": {
+        "enabled": true,
+        "threshold": 0.5,
+        
+        "marker_detection": {
+            "enabled": true,
+            "detect_punctuation": true,
+            "detect_phrases": true,
+            "detect_kannada_markers": true
+        },
+        
+        "contrast_detection": {
+            "enabled": true,
+            "positive_negative_contrast": true,
+            "sentiment_contrast": true
+        },
+        
+        "passive_aggressive": {
+            "enabled": true,
+            "detect_dismissive": true,
+            "detect_backhanded": true
+        },
+        
+        "emoji_analysis": {
+            "enabled": true,
+            "text_emoji_contrast": true
+        }
+    },
+    
+    "feature_selection": {
+        "enabled": false,
+        "method": "mutual_info",
+        "n_features": 100,
+        
+        "methods_available": [
+            "mutual_info",
+            "chi2",
+            "f_classif",
+            "variance_threshold"
+        ]
+    },
+    
+    "output": {
+        "format": "numpy",
+        "normalize": true,
+        "scaler": "standard",
+        
+        "feature_names": true,
+        "include_metadata": true,
+        
+        "save_path": "../03_models/saved_models/"
+    },
+    
+    "labels": {
+        "cyberbullying_types": [
+            "insult",
+            "aggression",
+            "threat",
+            "harassment",
+            "exclusion",
+            "stalking",
+            "hate",
+            "neutral"
+        ],
+        
+        "severity_levels": {
+            "low": 1,
+            "medium": 2,
+            "high": 3,
+            "critical": 4
+        },
+        
+        "target_types": [
+            "individual",
+            "group",
+            "general",
+            "self"
+        ]
+    },
+    
+    "paths": {
+        "data_dir": "../00_data/",
+        "processed_dir": "../00_data/processed/",
+        "lexicon_dir": "../00_data/lexicon/",
+        "model_dir": "../03_models/saved_models/",
+        "embeddings_dir": "./embeddings/"
+    }
+}

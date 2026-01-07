@@ -1,0 +1,5 @@
+# This folder stores trained embedding models
+# - TF-IDF vectorizer models
+# - Word2Vec models
+# - FastText models
+# - Transformer embedding caches

@@ -1,0 +1,32 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Testing and notebooks
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and coverage
+*.log
+.coverage
+
+# Node-related (dashboard)
+08_dashboard/node_modules/
+
+# Do NOT ignore data or models to keep full project uploaded

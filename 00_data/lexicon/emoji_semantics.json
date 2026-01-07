@@ -1,0 +1,118 @@
+{
+  "emoji_semantics": {
+    "version": "1.0",
+    "source": "emoji_cyberbullying_dataset.csv",
+    "total_emojis_analyzed": 45,
+    "last_updated": "2024-01-15"
+  },
+  "negative_emojis": {
+    "anger": {
+      "💢": {"name": "anger_symbol", "sentiment": -0.85, "cyberbullying_association": "high", "common_context": "expressing rage"},
+      "😠": {"name": "angry_face", "sentiment": -0.70, "cyberbullying_association": "medium", "common_context": "showing anger"},
+      "😡": {"name": "pouting_face", "sentiment": -0.80, "cyberbullying_association": "high", "common_context": "intense anger"},
+      "🤬": {"name": "face_with_symbols", "sentiment": -0.95, "cyberbullying_association": "high", "common_context": "swearing/cursing"}
+    },
+    "disgust": {
+      "🤮": {"name": "vomiting_face", "sentiment": -0.85, "cyberbullying_association": "high", "common_context": "expressing disgust at person"},
+      "🤢": {"name": "nauseated_face", "sentiment": -0.70, "cyberbullying_association": "medium", "common_context": "showing disgust"},
+      "💩": {"name": "poop", "sentiment": -0.60, "cyberbullying_association": "medium", "common_context": "calling something/someone crap"}
+    },
+    "contempt": {
+      "🙄": {"name": "eye_roll", "sentiment": -0.50, "cyberbullying_association": "medium", "common_context": "dismissive attitude"},
+      "😒": {"name": "unamused_face", "sentiment": -0.55, "cyberbullying_association": "medium", "common_context": "displeasure/annoyance"},
+      "😤": {"name": "huffing_face", "sentiment": -0.60, "cyberbullying_association": "medium", "common_context": "frustration"},
+      "🫥": {"name": "dotted_line_face", "sentiment": -0.45, "cyberbullying_association": "medium", "common_context": "feeling invisible/ignored"}
+    },
+    "threat": {
+      "💣": {"name": "bomb", "sentiment": -0.90, "cyberbullying_association": "high", "common_context": "threatening explosion"},
+      "🔪": {"name": "knife", "sentiment": -0.95, "cyberbullying_association": "critical", "common_context": "violence threat"},
+      "💀": {"name": "skull", "sentiment": -0.75, "cyberbullying_association": "high", "common_context": "death reference"},
+      "☠️": {"name": "skull_crossbones", "sentiment": -0.85, "cyberbullying_association": "high", "common_context": "death threat"},
+      "⚰️": {"name": "coffin", "sentiment": -0.80, "cyberbullying_association": "high", "common_context": "death implication"},
+      "🔫": {"name": "gun", "sentiment": -0.90, "cyberbullying_association": "critical", "common_context": "violence/threat"}
+    },
+    "mockery": {
+      "🤡": {"name": "clown_face", "sentiment": -0.65, "cyberbullying_association": "high", "common_context": "calling someone a clown/fool"},
+      "👎": {"name": "thumbs_down", "sentiment": -0.50, "cyberbullying_association": "medium", "common_context": "disapproval"},
+      "🖕": {"name": "middle_finger", "sentiment": -0.95, "cyberbullying_association": "high", "common_context": "offensive gesture"}
+    },
+    "sadness_inducing": {
+      "😢": {"name": "crying_face", "sentiment": -0.40, "cyberbullying_association": "low", "common_context": "sadness"},
+      "😭": {"name": "loudly_crying", "sentiment": -0.50, "cyberbullying_association": "low", "common_context": "intense sadness"},
+      "💔": {"name": "broken_heart", "sentiment": -0.55, "cyberbullying_association": "low", "common_context": "emotional hurt"}
+    }
+  },
+  "positive_emojis": {
+    "approval": {
+      "👍": {"name": "thumbs_up", "sentiment": 0.60, "cyberbullying_association": "none", "common_context": "approval"},
+      "👏": {"name": "clapping_hands", "sentiment": 0.65, "cyberbullying_association": "none", "common_context": "appreciation"},
+      "🙌": {"name": "raising_hands", "sentiment": 0.70, "cyberbullying_association": "none", "common_context": "celebration"},
+      "✅": {"name": "check_mark", "sentiment": 0.50, "cyberbullying_association": "none", "common_context": "confirmation"}
+    },
+    "happiness": {
+      "😊": {"name": "smiling_face", "sentiment": 0.70, "cyberbullying_association": "none", "common_context": "friendly"},
+      "😄": {"name": "grinning_face", "sentiment": 0.75, "cyberbullying_association": "none", "common_context": "happy"},
+      "🥰": {"name": "smiling_with_hearts", "sentiment": 0.80, "cyberbullying_association": "none", "common_context": "affection"},
+      "❤️": {"name": "red_heart", "sentiment": 0.75, "cyberbullying_association": "none", "common_context": "love/like"}
+    },
+    "support": {
+      "🤗": {"name": "hugging_face", "sentiment": 0.70, "cyberbullying_association": "none", "common_context": "supportive"},
+      "💪": {"name": "flexed_bicep", "sentiment": 0.55, "cyberbullying_association": "none", "common_context": "encouragement"},
+      "🌟": {"name": "star", "sentiment": 0.60, "cyberbullying_association": "none", "common_context": "praise"}
+    }
+  },
+  "neutral_emojis": {
+    "😐": {"name": "neutral_face", "sentiment": 0.00, "cyberbullying_association": "none", "common_context": "indifference"},
+    "🤔": {"name": "thinking_face", "sentiment": 0.00, "cyberbullying_association": "none", "common_context": "pondering"},
+    "😶": {"name": "face_without_mouth", "sentiment": 0.00, "cyberbullying_association": "low", "common_context": "speechless"}
+  },
+  "ambiguous_emojis": {
+    "😂": {
+      "name": "face_with_tears_of_joy",
+      "sentiment_range": [-0.30, 0.80],
+      "cyberbullying_association": "context_dependent",
+      "note": "Can be genuine laughter or mocking"
+    },
+    "😏": {
+      "name": "smirking_face",
+      "sentiment_range": [-0.40, 0.20],
+      "cyberbullying_association": "medium",
+      "note": "Often used sarcastically or suggestively"
+    },
+    "🙃": {
+      "name": "upside_down_face",
+      "sentiment_range": [-0.50, 0.30],
+      "cyberbullying_association": "medium",
+      "note": "Passive aggressive or sarcastic"
+    },
+    "💅": {
+      "name": "nail_polish",
+      "sentiment_range": [-0.20, 0.40],
+      "cyberbullying_association": "low",
+      "note": "Can indicate sassiness or dismissiveness"
+    }
+  },
+  "emoji_combinations": {
+    "threat_patterns": [
+      {"pattern": "💀💀💀", "meaning": "dead/dying laughing OR death threat", "severity": "context_dependent"},
+      {"pattern": "🔪💔", "meaning": "heartbreak threat", "severity": "high"},
+      {"pattern": "👊💥", "meaning": "physical violence", "severity": "high"}
+    ],
+    "mockery_patterns": [
+      {"pattern": "🤡🤡", "meaning": "intensified mocking", "severity": "medium"},
+      {"pattern": "😂👉", "meaning": "laughing at someone", "severity": "medium"},
+      {"pattern": "🙄😒", "meaning": "strong dismissal", "severity": "medium"}
+    ],
+    "positive_patterns": [
+      {"pattern": "❤️🙌", "meaning": "love and celebration", "severity": "none"},
+      {"pattern": "💪✨", "meaning": "encouragement", "severity": "none"}
+    ]
+  },
+  "detection_weights": {
+    "critical_severity": ["🔪", "🔫", "☠️"],
+    "high_severity": ["💢", "🤬", "🖕", "💣", "🤮", "😡", "🤡"],
+    "medium_severity": ["😠", "😒", "🙄", "😤", "👎", "💩"],
+    "low_severity": ["😢", "💔", "😶"],
+    "positive_indicators": ["👍", "❤️", "😊", "🙌", "👏", "🤗"]
+  }
+}

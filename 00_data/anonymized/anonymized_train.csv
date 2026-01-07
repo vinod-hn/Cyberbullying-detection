@@ -1,0 +1,501 @@
+anon_id,message,label,target_type,severity,severity_score,source
+ANON_0001,[USR] laughs at you don't you think?,insult,individual,high,0.35,english
+ANON_0002,"Hey, I missed the lecture today.",neutral,unknown,medium,0.02,english
+ANON_0003,I think dont follow up again please right now.,harassment,individual,medium,0.45,english
+ANON_0004,Thanks for sharing the slides.,neutral,unknown,medium,0.02,english
+ANON_0005,"Stop it, keep quiet please ... whatever.",aggression,individual,medium,0.55,english
+ANON_0006,"Look, you are not smart enough for this",insult,appearance,medium,0.3,english
+ANON_0007,"Basically, i will report this to [AUTHORITY]",threat,teacher,medium,0.82,english
+ANON_0008,dont keep asking the same thing,harassment,appearance,medium,0.45,english
+ANON_0009,your kind spoils the environment and it's annoying.,hate,gender,medium,0.75,english
+ANON_0010,Please check the group description.,neutral,unknown,medium,0.02,english
+ANON_0011,"[GENDER], dont interfere in this",aggression,gender,medium,0.55,english
+ANON_0012,"Basically, i told you already dont text me",harassment,individual,medium,0.45,english
+ANON_0013,What time is the assignment due?,neutral,gender,medium,0.02,english
+ANON_0014,"Honestly, go away from here for real.",aggression,individual,medium,0.55,english
+ANON_0015,"Honestly, people like you make everything dirty",hate,individual,medium,0.75,english
+ANON_0016,Let's work together on this.,neutral,unknown,medium,0.02,english
+ANON_0017,"Hey, Can we meet after class?",neutral,unknown,medium,0.02,english
+ANON_0018,"Hey, you are not required period.",exclusion,individual,medium,0.42,english
+ANON_0019,why do you remember my timings,stalking,individual,medium,0.62,english
+ANON_0020,Can someone share the notes from today?,neutral,academic,medium,0.02,english
+ANON_0021,"[USR], how many times should i say no",harassment,personal,medium,0.45,english
+ANON_0022,Please check the group description. Thanks.,neutral,unknown,medium,0.02,english
+ANON_0023,this environment is really bad and it's sad.,toxicity,gender,medium,0.5,english
+ANON_0024,Is there any update on the results??,neutral,academic,medium,0.02,english
+ANON_0025,"Actually, go mind your work don't you think?",aggression,individual,medium,0.55,english
+ANON_0026,"Seriously, this is between us only and it's annoying.",exclusion,individual,high,0.47,english
+ANON_0027,"Hey, What time is the assignment due?",neutral,gender,medium,0.02,english
+ANON_0028,Can we meet after class??,neutral,unknown,medium,0.02,english
+ANON_0029,Did anyone finish the assignment??,neutral,gender,medium,0.02,english
+ANON_0030,you wont get away with this,threat,individual,medium,0.82,english
+ANON_0031,why are you so behind me and it's annoying.,harassment,individual,medium,0.45,english
+ANON_0032,"To be honest, dont message me late night - just my opinion.",harassment,individual,medium,0.45,english
+ANON_0033,I missed the lecture today.,neutral,unknown,medium,0.02,english
+ANON_0034,Is there any update on the results?,neutral,academic,medium,0.02,english
+ANON_0035,"[CONTEXT], dont message me late night",harassment,academic,medium,0.45,english
+ANON_0036,"Hey, Where can I find the syllabus?",neutral,academic,medium,0.02,english
+ANON_0037,you make everything worse - just my opinion.,insult,individual,medium,0.3,english
+ANON_0038,Let's work together on this. Thanks.,neutral,unknown,medium,0.02,english
+ANON_0039,dont think this will go unnoticed,threat,individual,medium,0.82,english
+ANON_0040,Good morning everyone.,neutral,unknown,high,0.07,english
+ANON_0041,It's obvious that this is only for selected people and it's sad.,exclusion,individual,medium,0.42,english
+ANON_0042,The project deadline is approaching.,neutral,academic,medium,0.02,english
+ANON_0043,"Honestly, why do you keep observing me immediately.",stalking,individual,medium,0.62,english
+ANON_0044,"Listen, this place feels unhealthy",toxicity,individual,medium,0.5,english
+ANON_0045,Can someone share the notes from today??,neutral,academic,medium,0.02,english
+ANON_0046,"Hey, Thanks for sharing the slides.",neutral,unknown,medium,0.02,english
+ANON_0047,stop talking rubbish,insult,individual,medium,0.3,english
+ANON_0048,"[GROUP], your type always ruins things",hate,group,high,0.8,english
+ANON_0049,"Look, why are you noticing my movements",stalking,gender,medium,0.62,english
+ANON_0050,"Basically, this place is full of nonsense (no offense).",toxicity,individual,low,0.45,english
+ANON_0051,stay out of my matters,aggression,individual,medium,0.55,english
+ANON_0052,"Look, i told you already dont text me !!!",harassment,appearance,medium,0.45,english
+ANON_0053,"Listen, stop forcing conversation",harassment,individual,medium,0.45,english
+ANON_0054,"Hey, please remove yourself",exclusion,individual,medium,0.42,english
+ANON_0055,"[AUTHORITY], why cant you just stop",harassment,teacher,medium,0.45,english
+ANON_0056,"To be honest, use your brain once",insult,individual,medium,0.3,english
+ANON_0057,"Just so you know, this chat is exhausting right now.",toxicity,group,medium,0.5,english
+ANON_0058,Where can I find the syllabus?,neutral,academic,medium,0.02,english
+ANON_0059,"Hey, this environment is really bad",toxicity,gender,medium,0.5,english
+ANON_0060,people like you are always the problem,hate,individual,high,0.8,english
+ANON_0061,"[GROUP], you dont need to be here",exclusion,teacher,medium,0.42,english
+ANON_0062,"[GROUP], mind your own business",aggression,group,medium,0.55,english
+ANON_0063,"[CONTEXT], go mind your work",aggression,academic,medium,0.55,english
+ANON_0064,"Hey, why do you remember my timings",stalking,individual,medium,0.62,english
+ANON_0065,you are done now period.,threat,individual,medium,0.82,english
+ANON_0066,"Stop it, why are you messaging me again so please stop.",harassment,individual,medium,0.45,english
+ANON_0067,It's obvious that why are you so behind me,harassment,individual,medium,0.45,english
+ANON_0068,Thanks for sharing the slides. Thanks.,neutral,unknown,medium,0.02,english
+ANON_0069,"[GENDER], you are useless in group work",insult,gender,medium,0.3,english
+ANON_0070,you are not invited to this,exclusion,individual,medium,0.42,english
+ANON_0071,you are not invited to this so please stop.,exclusion,individual,medium,0.42,english
+ANON_0072,When is the next lab session? Thanks.,neutral,unknown,medium,0.02,english
+ANON_0073,"Hey, remember this moment period.",threat,gender,medium,0.82,english
+ANON_0074,"In my opinion, use your brain once ... whatever.",insult,individual,medium,0.3,english
+ANON_0075,When is the next lab session?,neutral,unknown,medium,0.02,english
+ANON_0076,It's obvious that you will face consequences for this without a doubt.,threat,appearance,medium,0.82,english
+ANON_0077,what are you even saying,insult,individual,medium,0.3,english
+ANON_0078,stay out of this matter,exclusion,individual,medium,0.42,english
+ANON_0079,I think please remove yourself,exclusion,individual,medium,0.42,english
+ANON_0080,you dont belong in this level don't you think?,insult,individual,medium,0.3,english
+ANON_0081,"[CONTEXT], stop chasing me for replies",harassment,social,medium,0.45,english
+ANON_0082,"Basically, we are doing this without you",exclusion,individual,medium,0.42,english
+ANON_0083,"Look, shut up now",aggression,appearance,medium,0.55,english
+ANON_0084,keep quiet please and it's sad.,aggression,individual,medium,0.55,english
+ANON_0085,"Actually, stop tracking my activity ... whatever.",stalking,individual,medium,0.62,english
+ANON_0086,why do you always show up where i am,stalking,individual,high,0.67,english
+ANON_0087,control yourself for real.,aggression,individual,medium,0.55,english
+ANON_0088,Where can I find the syllabus? Thanks.,neutral,academic,medium,0.02,english
+ANON_0089,stop irritating everyone right now.,aggression,individual,high,0.6,english
+ANON_0090,"Hey, Does anyone understand this topic?",neutral,unknown,medium,0.02,english
+ANON_0091,dont push me beyond my limit,threat,individual,medium,0.82,english
+ANON_0092,your type should not be here (no offense).,hate,individual,low,0.7,english
+ANON_0093,"[GROUP], dont keep asking the same thing",harassment,group,medium,0.45,english
+ANON_0094,"Hey, Did anyone finish the assignment?",neutral,gender,medium,0.02,english
+ANON_0095,"Seriously, stop monitoring what i do immediately.",stalking,individual,high,0.67,english
+ANON_0096,people like you dont deserve respect,hate,individual,medium,0.75,english
+ANON_0097,remember this moment immediately.,threat,gender,medium,0.82,english
+ANON_0098,"[GROUP], dont start with me",aggression,group,medium,0.55,english
+ANON_0099,"[CONTEXT], dont cross the line",aggression,academic,medium,0.55,english
+ANON_0100,you are acting childish don't you think?,insult,individual,medium,0.3,english
+ANON_0101,Everyone knows people like you never change immediately.,hate,individual,high,0.8,english
+ANON_0102,we didnt include you on purpose and everyone agrees.,exclusion,individual,high,0.47,english
+ANON_0103,"Honestly, your type always ruins things",hate,individual,high,0.8,english
+ANON_0104,why are you watching my profile daily,stalking,teacher,medium,0.62,english
+ANON_0105,"[GROUP], this group is too negative",toxicity,group,medium,0.5,english
+ANON_0106,"To be honest, leave me alone seriously",harassment,individual,high,0.5,english
+ANON_0107,"[GROUP], this chat is mentally draining",toxicity,group,medium,0.5,english
+ANON_0108,"[CONTEXT], this place feels suffocating",toxicity,academic,medium,0.5,english
+ANON_0109,"In my opinion, this place feels suffocating period.",toxicity,individual,medium,0.5,english
+ANON_0110,"Hey, this doesnt concern you and it's annoying.",exclusion,individual,medium,0.42,english
+ANON_0111,Can we meet after class? Thanks.,neutral,unknown,medium,0.02,english
+ANON_0112,this place is full of nonsense - just my opinion.,toxicity,individual,medium,0.5,english
+ANON_0113,Does anyone understand this topic? Thanks.,neutral,unknown,medium,0.02,english
+ANON_0114,"Listen, stop disturbing me during class",harassment,individual,medium,0.45,english
+ANON_0115,dont involve yourself here,exclusion,individual,medium,0.42,english
+ANON_0116,I just wanted to say i cant stand people like you right now.,hate,individual,medium,0.75,english
+ANON_0117,Did anyone finish the assignment? Thanks.,neutral,gender,medium,0.02,english
+ANON_0118,"[APPEARANCE], you just dont get it",insult,appearance,medium,0.3,english
+ANON_0119,"[CONTEXT], stop irritating everyone",aggression,social,high,0.6,english
+ANON_0120,I think dont test my patience (no offense).,threat,academic,low,0.77,english
+ANON_0121,"Just so you know, dont cross the line and it's sad.",aggression,individual,medium,0.55,english
+ANON_0122,"[CONTEXT], you are embarrassing yourself",insult,academic,medium,0.3,english
+ANON_0123,you dont need to be here (no offense).,exclusion,individual,low,0.37,english
+ANON_0124,this chat is very unhealthy and it's annoying.,toxicity,group,medium,0.5,english
+ANON_0125,dont test my patience for real.,threat,academic,medium,0.82,english
+ANON_0126,Is the class online or offline tomorrow? Thanks.,neutral,social,medium,0.02,english
+ANON_0127,Everyone knows dont follow up again please,harassment,individual,high,0.5,english
+ANON_0128,"[CONTEXT], we dont like people like you",hate,academic,medium,0.75,english
+ANON_0129,you dont belong in our circle,exclusion,individual,medium,0.42,english
+ANON_0130,I just wanted to say you will suffer for this without a doubt.,threat,individual,medium,0.82,english
+ANON_0131,"[CONTEXT], dont message me late night",harassment,social,medium,0.45,english
+ANON_0132,"[APPEARANCE], you look foolish right now",insult,appearance,medium,0.3,english
+ANON_0133,"Actually, this place feels unhealthy immediately.",toxicity,individual,medium,0.5,english
+ANON_0134,"To be honest, this environment is really bad without a doubt.",toxicity,gender,medium,0.5,english
+ANON_0135,"[CONTEXT], you asked for it",threat,social,medium,0.82,english
+ANON_0136,"In my opinion, you will pay for what you did",threat,individual,medium,0.82,english
+ANON_0137,"Basically, you are done now",threat,individual,medium,0.82,english
+ANON_0138,control yourself,aggression,individual,medium,0.55,english
+ANON_0139,"Listen, we dont like people like you !!!",hate,individual,medium,0.75,english
+ANON_0140,"[CONTEXT], your kind is not welcome here",hate,personal,medium,0.75,english
+ANON_0141,"Look, why are you always online when i come",stalking,appearance,high,0.67,english
+ANON_0142,Everyone knows why are you checking my last seen and it's annoying.,stalking,social,high,0.67,english
+ANON_0143,you will suffer for this - just my opinion.,threat,individual,medium,0.82,english
+ANON_0144,"[GENDER], we are tired of people like you",hate,gender,medium,0.75,english
+ANON_0145,you cant escape from this don't you think?,threat,individual,medium,0.82,english
+ANON_0146,"Look, dont involve yourself here",exclusion,appearance,medium,0.42,english
+ANON_0147,"Hey, i will complain about you",threat,individual,medium,0.82,english
+ANON_0148,"Seriously, i will report this to [AUTHORITY] for real.",threat,teacher,high,0.87,english
+ANON_0149,Does anyone understand this topic??,neutral,unknown,medium,0.02,english
+ANON_0150,you dont need to be here for real.,exclusion,individual,medium,0.42,english
+ANON_0151,"[USR], nee full time late bartiya dude.",insult,individual,low,0.17,kannada
+ANON_0152,exam tumba tough aaytu but somehow aaytu.,neutral,individual,low,0,kannada
+ANON_0153,"[USR], elli hogidaroo ade tara madthiya, complete waste fellow anta feel agutte.",harassment,individual,low,0.46,kannada
+ANON_0154,"[USR], [AUTHORITY] ge complaint haakthini nodu, swalpa limit nodu yaar.",threat,individual,high,0.94,kannada
+ANON_0155,"[USR], elli hogidaroo ade tara madthiya, tumba irritating agthiya re anta feel agutte.",harassment,individual,high,0.78,kannada
+ANON_0156,"[USR], nee ivattu full lazy mode alli idiya yaar.",insult,individual,low,0.22,kannada
+ANON_0157,naale extra pen togond baa pls.,neutral,unknown,low,0,kannada
+ANON_0158,"network sakkath slow ide, once repeat maadu.",neutral,unknown,low,0.03,kannada
+ANON_0159,"naale 9 gante lab ge bartira, late agbeda.",neutral,group,low,0.02,kannada
+ANON_0160,pizza bekka biryani bekka decide maadi.,neutral,individual,low,0.02,kannada
+ANON_0161,"[USR], nee sakkat dumb idiya yaar re.",insult,individual,medium,0.29,kannada
+ANON_0162,fest practice ge yar yar barthidira.,neutral,group,low,0,kannada
+ANON_0163,"[USR], nanna status na yavaglu check madthiya, idu stalking tara kanstide.",cyberstalking,individual,high,0.83,kannada
+ANON_0164,weekend ge yava movie nodona.,neutral,individual,low,0,kannada
+ANON_0165,"[USR], nee ivattu full lazy mode alli idiya machaa.",insult,individual,low,0.25,kannada
+ANON_0166,project help madidakke thanks maga.,neutral,individual,low,0.03,kannada
+ANON_0167,"[USR], nee full time late bartiya yaar.",insult,individual,low,0.15,kannada
+ANON_0168,"[USR], prati dina reason illade ping madbedi, idu stalking tara kanstide.",cyberstalking,individual,high,0.83,kannada
+ANON_0169,"[USR], nee sakkat dumb idiya yaar machaa.",insult,individual,medium,0.39,kannada
+ANON_0170,"[USR], nee sakkat dumb idiya yaar re.",insult,individual,medium,0.39,kannada
+ANON_0171,"[GROUP], ivananna group inda remove maadona, ivan illaadre better ansta.",exclusion,group,medium,0.36,kannada
+ANON_0172,"[USR], nee reply nodoke tumba time togondiya yaar.",insult,individual,low,0.16,kannada
+ANON_0173,"[USR], nee full time late bartiya machaa.",insult,individual,low,0.18,kannada
+ANON_0174,"[USR], nee tumba irritating agthiya re re.",insult,individual,medium,0.41,kannada
+ANON_0175,"[USR], nee sakkat dumb idiya yaar machaa.",insult,individual,medium,0.22,kannada
+ANON_0176,"ninna presentation super aaytu, chennag ide.",neutral,unknown,low,0,kannada
+ANON_0177,"[GROUP], ivananna group inda remove maadona, ivan illaadre better ansta.",exclusion,group,medium,0.45,kannada
+ANON_0178,"[USR], nee tumba irritating agthiya re yaar.",insult,individual,medium,0.26,kannada
+ANON_0179,"[USR], elli hogidaroo ade tara madthiya, class nalli full time joker ne anta feel agutte.",harassment,individual,medium,0.63,kannada
+ANON_0180,exam tumba tough aaytu but somehow aaytu.,neutral,group,low,0.03,kannada
+ANON_0181,"[USR], nee full time late bartiya machaa.",insult,individual,low,0.4,kannada
+ANON_0182,"[USR], nee full time late bartiya yaar.",insult,individual,low,0.33,kannada
+ANON_0183,"[USR], nee tumba disgusting behaviour machaa.",insult,individual,high,0.45,kannada
+ANON_0184,"[USR], nee tumba irritating agthiya re re.",insult,individual,medium,0.26,kannada
+ANON_0185,"5 nimisha nalli join agthini, swalpa wait maadu.",neutral,unknown,low,0.02,kannada
+ANON_0186,"happy birthday, tumba olle varsha agli.",neutral,unknown,low,0.02,kannada
+ANON_0187,"network sakkath slow ide, once repeat maadu.",neutral,unknown,low,0.01,kannada
+ANON_0188,"[USR], nee useless tara behave madthiya yaar.",insult,individual,medium,0.26,kannada
+ANON_0189,"5 nimisha nalli join agthini, swalpa wait maadu.",neutral,unknown,low,0.05,kannada
+ANON_0190,"[USR], nee tumba irritating agthiya re machaa.",insult,individual,medium,0.26,kannada
+ANON_0191,"[USR], elli hogidaroo ade tara madthiya, useless tara behave madthiya anta feel agutte.",harassment,individual,medium,0.59,kannada
+ANON_0192,project help madidakke thanks maga.,neutral,group,low,0,kannada
+ANON_0193,pizza bekka biryani bekka decide maadi.,neutral,group,low,0.05,kannada
+ANON_0194,"[USR], elli hogidaroo ade tara madthiya, tumba disgusting behaviour anta feel agutte.",harassment,individual,high,0.79,kannada
+ANON_0195,"[USR], elli hogidaroo ade tara madthiya, tumba disgusting behaviour anta feel agutte.",harassment,individual,high,0.82,kannada
+ANON_0196,"ninna presentation super aaytu, chennag ide.",neutral,group,low,0,kannada
+ANON_0197,ivattu assignment submit maadbeku maga.,neutral,unknown,low,0.03,kannada
+ANON_0198,attendance link haakbidu illi.,neutral,individual,low,0,kannada
+ANON_0199,"[USR], nee complete waste fellow machaa.",insult,individual,high,0.42,kannada
+ANON_0200,"[USR], elli hogidaroo ade tara madthiya, yen use illa ninna jothe anta feel agutte.",harassment,individual,medium,0.37,kannada
+ANON_0201,"[USR], nanna jothe yaak mathadthiya, bekagilla.",exclusion,individual,medium,0.42,kannada
+ANON_0202,exam tumba tough aaytu but somehow aaytu.,neutral,group,low,0.02,kannada
+ANON_0203,"[USR], nee useless tara behave madthiya machaa.",insult,individual,medium,0.38,kannada
+ANON_0204,"5 nimisha nalli join agthini, swalpa wait maadu.",neutral,unknown,low,0.02,kannada
+ANON_0205,"[USR], nanna friends jothe matadod yaak, creepy agide.",cyberstalking,individual,high,0.82,kannada
+ANON_0206,"happy birthday, tumba olle varsha agli.",neutral,unknown,low,0.01,kannada
+ANON_0207,"[USR], nee class nalli full time joker ne re.",insult,individual,medium,0.35,kannada
+ANON_0208,"network sakkath slow ide, once repeat maadu.",neutral,unknown,low,0.02,kannada
+ANON_0209,"[USR], nee complete waste fellow yaar.",insult,individual,high,0.55,kannada
+ANON_0210,"naale 9 gante lab ge bartira, late agbeda.",neutral,group,low,0.02,kannada
+ANON_0211,"[USR], [AUTHORITY] ge complaint haakthini nodu, swalpa matadod nilaasu.",threat,individual,high,0.88,kannada
+ANON_0212,pizza bekka biryani bekka decide maadi.,neutral,individual,low,0.01,kannada
+ANON_0213,"[USR], nee yen use illa yaar.",insult,individual,medium,0.42,kannada
+ANON_0214,fest practice ge yar yar barthidira.,neutral,group,low,0.02,kannada
+ANON_0215,"ninna presentation super aaytu, chennag ide.",neutral,unknown,low,0.01,kannada
+ANON_0216,"[USR], ninna jothe yaar matadalla, bekagilla.",exclusion,individual,high,0.52,kannada
+ANON_0217,canteen alli meet maadona today.,neutral,group,low,0.02,kannada
+ANON_0218,"[USR], nee tumba disgusting behaviour machaa.",insult,individual,high,0.62,kannada
+ANON_0219,tomorrow exam prep ge help maadu pls.,neutral,individual,low,0.02,kannada
+ANON_0220,"[USR], yaak nanna messages na screenshot togthiya, stalking ne idu.",cyberstalking,individual,high,0.88,kannada
+ANON_0221,[USR] is behaving like a total [PROFANITY],insult,individual,high,0.72,bad_words
+ANON_0222,Thanks for sharing the study material.,neutral,unknown,low,0.02,english
+ANON_0223,You are such a [PROFANITY] waste of space,insult,individual,high,0.85,bad_words
+ANON_0224,Good luck for the exam everyone!,neutral,group,low,0.01,english
+ANON_0225,[USR] keeps sending me unwanted messages daily,harassment,individual,medium,0.58,bad_words
+ANON_0226,Assignment deadline extended to Friday.,neutral,academic,low,0.02,english
+ANON_0227,Nobody wants you in this group [PROFANITY],exclusion,individual,high,0.75,bad_words
+ANON_0228,Can you share the PPT for tomorrow?,neutral,unknown,low,0.02,english
+ANON_0229,[USR] I will make your life hell,threat,individual,high,0.92,bad_words
+ANON_0230,Nice presentation today!,neutral,individual,low,0.01,english
+ANON_0231,Why do you always talk like a [PROFANITY],insult,individual,medium,0.55,bad_words
+ANON_0232,Lunch at 1 PM in cafeteria?,neutral,group,low,0.02,english
+ANON_0233,"[USR], stop following me everywhere",stalking,individual,high,0.78,bad_words
+ANON_0234,Library study session at 4?,neutral,group,low,0.02,english
+ANON_0235,Your whole family is [PROFANITY],insult,family,high,0.88,bad_words
+ANON_0236,Which lab are we in today?,neutral,academic,low,0.02,english
+ANON_0237,[USR] you are completely worthless,insult,individual,high,0.68,bad_words
+ANON_0238,Exam papers will be shared soon.,neutral,academic,low,0.01,english
+ANON_0239,"[USR], I know where you live",threat,individual,high,0.95,bad_words
+ANON_0240,Meeting rescheduled to 3 PM.,neutral,unknown,low,0.02,english
+ANON_0241,nee yavaga online bartiya anta nodthini always,cyberstalking,individual,high,0.82,kannada
+ANON_0242,"[USR], nee class alli full time khatarnak idiya.",insult,individual,medium,0.38,kannada
+ANON_0243,tumba chennagi explain maadidya boss.,neutral,individual,low,0.01,kannada
+ANON_0244,"[USR], ninna jothe matadod bekagilla.",exclusion,individual,medium,0.48,kannada
+ANON_0245,notes share maadidakke thanks bro.,neutral,individual,low,0.02,kannada
+ANON_0246,"[USR], nee hogi illi irodu bekagilla.",exclusion,individual,high,0.55,kannada
+ANON_0247,assignment due date yaavaga?,neutral,academic,low,0.02,kannada
+ANON_0248,"[USR], nee full fake personality yaar.",insult,individual,medium,0.42,kannada
+ANON_0249,"sakkath movie aaytu, next week ondhu nodona.",neutral,individual,low,0.01,kannada
+ANON_0250,"[USR], nanna online status yaak track madthiya.",cyberstalking,individual,high,0.85,kannada
+ANON_0251,You are really dumb 😒,insult,group,low,0.25,emoji
+ANON_0252,Leave me alone already 💣,harassment,academic,medium,0.55,emoji
+ANON_0253,People like you are disgusting 💢,hate,individual,high,0.85,emoji
+ANON_0254,You will regret this 🫥,threat,appearance,high,0.95,emoji
+ANON_0255,Nice explanation today 🙌,neutral,academic,low,0.0,emoji
+ANON_0256,You always spread negativity 🙄,toxicity,individual,medium,0.45,emoji
+ANON_0257,Great teamwork everyone 👏,neutral,group,low,0.0,emoji
+ANON_0258,Stop following me around 😠,stalking,individual,high,0.75,emoji
+ANON_0259,You're worthless 💔,insult,individual,high,0.7,emoji
+ANON_0260,Thanks for the help 🙏,neutral,individual,low,0.0,emoji
+ANON_0261,Nobody wants you here 🚫,exclusion,individual,high,0.8,emoji
+ANON_0262,Good morning class 🌞,neutral,group,low,0.0,emoji
+ANON_0263,I'll destroy your reputation 👿,threat,individual,high,0.9,emoji
+ANON_0264,You're so annoying 😤,insult,individual,medium,0.4,emoji
+ANON_0265,Happy birthday! 🎂,neutral,individual,low,0.0,emoji
+ANON_0266,Your kind doesn't belong here 😡,hate,group,high,0.82,emoji
+ANON_0267,Great job on the project 💪,neutral,individual,low,0.0,emoji
+ANON_0268,I'm watching your every move 👁️,cyberstalking,individual,high,0.88,emoji
+ANON_0269,You talk too much trash 🗑️,insult,individual,medium,0.45,emoji
+ANON_0270,Study group at 5 PM 📚,neutral,group,low,0.0,emoji
+ANON_0271,exam hall number yavdu?,neutral,academic,low,0.02,kannada
+ANON_0272,"[USR], nee tumba annoying behaviour.",insult,individual,medium,0.35,kannada
+ANON_0273,chai break togoli banni.,neutral,group,low,0.01,kannada
+ANON_0274,"[USR], ninna jothe yaaru iralla.",exclusion,individual,high,0.52,kannada
+ANON_0275,"naale holiday ide, yaavaga meet maadona.",neutral,group,low,0.02,kannada
+ANON_0276,"[USR], [AUTHORITY] kade complaint kodu hogthini.",threat,individual,high,0.88,kannada
+ANON_0277,project extension sigtha antira?,neutral,academic,low,0.02,kannada
+ANON_0278,"[USR], nee full time fake smile haakthiya.",insult,individual,medium,0.35,kannada
+ANON_0279,oota maadona ondhu chennag restaurant nalli.,neutral,group,low,0.01,kannada
+ANON_0280,"[USR], nanna friends jothe matadod nillsu.",harassment,individual,medium,0.55,kannada
+ANON_0281,internship update enu aaythu?,neutral,individual,low,0.02,kannada
+ANON_0282,"[USR], nee complete nonsense fellow.",insult,individual,medium,0.45,kannada
+ANON_0283,assignment template haakbidu pls.,neutral,academic,low,0.02,kannada
+ANON_0284,"[USR], nanna location yaak track madthiya.",cyberstalking,individual,high,0.92,kannada
+ANON_0285,exam preparation howdu?,neutral,individual,low,0.01,kannada
+ANON_0286,"[USR], ninna jothe yaaru friendship bekagilla.",exclusion,individual,high,0.58,kannada
+ANON_0287,"fest registration link haakbidu, tumba urgent.",neutral,group,low,0.02,kannada
+ANON_0288,"[USR], nee tumba cheap behaviour.",insult,individual,high,0.55,kannada
+ANON_0289,next class yaavaga shuru?,neutral,academic,low,0.02,kannada
+ANON_0290,"[USR], nanna life alli interfere madbeda.",harassment,individual,medium,0.58,kannada
+ANON_0291,assignment format link send maadu.,neutral,academic,low,0.02,english
+ANON_0292,[USR] you're such a [PROFANITY] loser,insult,individual,high,0.78,bad_words
+ANON_0293,Project meeting at 5 PM confirmed.,neutral,group,low,0.01,english
+ANON_0294,Stop texting me [PROFANITY] creep,harassment,individual,high,0.72,bad_words
+ANON_0295,Notes for chapter 5 uploaded.,neutral,academic,low,0.02,english
+ANON_0296,[USR] I'll teach you a lesson,threat,individual,high,0.85,bad_words
+ANON_0297,Presentation slides are ready.,neutral,unknown,low,0.02,english
+ANON_0298,Everyone hates you [PROFANITY],hate,individual,high,0.82,bad_words
+ANON_0299,Lab report submission tomorrow.,neutral,academic,low,0.01,english
+ANON_0300,[USR] always watching me online creepy,cyberstalking,individual,high,0.78,bad_words
+ANON_0301,"[USR], nee full sucide tara behave madthiya.",threat,individual,high,0.43,bad_words
+ANON_0302,"[USR], you are such a [PROFANITY] in this group.",sexual_harassment,individual,high,0.76,bad_words
+ANON_0303,"[USR], you are such a [PROFANITY] in this group.",insult,individual,medium,0.42,bad_words
+ANON_0304,"Only a [PROFANITY] will spam the group like you, [USR].",insult,individual,medium,0.59,bad_words
+ANON_0305,"Ivattu kooda sucide tara act madtidya, [USR].",threat,individual,medium,0.61,bad_words
+ANON_0306,"[USR], nee tumba thotha maga tara idiya maga.",insult,individual,medium,0.41,bad_words
+ANON_0307,"[USR], yaaru kuda ninna idiot thara nature ishta padalla.",insult,individual,high,0.81,bad_words
+ANON_0308,"Group nalli a tara thotha baribeda, [USR].",insult,individual,high,0.48,bad_words
+ANON_0309,"[USR], nin ninna [PROFANITY] nataka nodakke bore aaytu.",sexual_harassment,individual,medium,0.35,bad_words
+ANON_0310,"People are tired of your [PROFANITY] attitude, [USR].",harassment,individual,high,0.52,bad_words
+ANON_0311,"Group nalli a tara haavu bro neenu maga baribeda, [USR].",harassment,individual,medium,0.66,bad_words
+ANON_0312,"Group nalli ee not a loyal attitude beda, [USR].",harassment,individual,high,0.55,bad_words
+ANON_0313,"Ninna idiot thara behavior nodi everyone frustrate agta idare, [USR].",insult,individual,high,0.56,bad_words
+ANON_0314,"Only a [PROFANITY] will spam the group like you, [USR].",harassment,individual,high,0.6,bad_words
+ANON_0315,"[USR], nin [PROFANITY] nataka nodakke bore aaytu.",harassment,individual,medium,0.54,bad_words
+ANON_0316,"[USR], nee tumba dagarina maga tara idiya maga.",insult,individual,medium,0.45,bad_words
+ANON_0317,"[USR], ivattu full hucchadanta mode nalli idiya.",insult,individual,high,0.62,bad_words
+ANON_0318,"[USR], nin [PROFANITY] nataka nodakke bore aaytu.",sexual_harassment,individual,high,0.78,bad_words
+ANON_0319,"Ninna cry baby behavior nodi everyone frustrate agta idare, [USR].",harassment,individual,medium,0.38,bad_words
+ANON_0320,"Group nalli a tara singri maga baribeda, [USR].",insult,individual,high,0.43,bad_words
+ANON_0321,Go kill yourself 💀,threat,individual,high,0.98,emoji
+ANON_0322,Thanks for helping me understand 🤝,neutral,individual,low,0.0,emoji
+ANON_0323,You're so fake it's obvious 🎭,insult,individual,medium,0.5,emoji
+ANON_0324,Assignment due tomorrow ⏰,neutral,academic,low,0.0,emoji
+ANON_0325,I'll make sure everyone hates you 👎,threat,individual,high,0.85,emoji
+ANON_0326,You're a complete joke 🤡,insult,individual,medium,0.55,emoji
+ANON_0327,Class cancelled tomorrow 📢,neutral,academic,low,0.0,emoji
+ANON_0328,I know all your secrets 🤫,threat,individual,high,0.75,emoji
+ANON_0329,You're pathetic and everyone knows it 😏,insult,individual,high,0.72,emoji
+ANON_0330,Exam results are out 📋,neutral,academic,low,0.0,emoji
+ANON_0331,"[USR], nee tumba irritating agthiya re dude.",insult,individual,medium,0.35,codemix
+ANON_0332,ivattu assignment submit maadbeku maga bro.,neutral,unknown,low,0.02,codemix
+ANON_0333,"[USR], elli hogidaroo ade same behaviour, limit alli iru please.",harassment,individual,medium,0.55,codemix
+ANON_0334,attendance link share maadu please.,neutral,individual,low,0.01,codemix
+ANON_0335,"[USR], nanna location track madbeda, very creepy agide.",cyberstalking,individual,high,0.85,codemix
+ANON_0336,naale extra pen togond baa please.,neutral,unknown,low,0.02,codemix
+ANON_0337,"[USR], ivananna group inda remove maadona, who needs him.",exclusion,group,medium,0.48,codemix
+ANON_0338,project help madidakke thanks bro.,neutral,individual,low,0.02,codemix
+ANON_0339,"[USR], nee full time late bartiya always.",insult,individual,low,0.22,codemix
+ANON_0340,weekend ge which movie nodona.,neutral,individual,low,0.01,codemix
+ANON_0341,"[USR], nanna jothe why mathadthiya, bekagilla.",exclusion,individual,medium,0.42,codemix
+ANON_0342,exam tumba tough aaytu but somehow passed.,neutral,group,low,0.02,codemix
+ANON_0343,"[USR], nee useless tara behave madthiya always.",insult,individual,medium,0.38,codemix
+ANON_0344,"5 minutes nalli join agthini, swalpa wait maadu.",neutral,unknown,low,0.02,codemix
+ANON_0345,"[USR], nanna friends jothe why matadthiya, creepy agide.",cyberstalking,individual,high,0.82,codemix
+ANON_0346,"happy birthday bro, tumba olle varsha agli.",neutral,unknown,low,0.01,codemix
+ANON_0347,"[USR], nee class nalli full time joker ne really.",insult,individual,medium,0.35,codemix
+ANON_0348,"network very slow ide, once repeat maadu please.",neutral,unknown,low,0.02,codemix
+ANON_0349,"[USR], nee complete waste fellow yaar seriously.",insult,individual,high,0.55,codemix
+ANON_0350,"tomorrow 9 am lab ge bartira, late agbeda please.",neutral,group,low,0.02,codemix
+ANON_0351,[USR] you are a complete [PROFANITY] moron seriously,insult,individual,high,0.82,bad_words
+ANON_0352,Thanks for the notes bro really helpful.,neutral,individual,low,0.01,english
+ANON_0353,[USR] I will definitely ruin your life,threat,individual,high,0.9,bad_words
+ANON_0354,Good presentation today really impressive.,neutral,academic,low,0.02,english
+ANON_0355,You are such [PROFANITY] trash honestly,insult,individual,high,0.78,bad_words
+ANON_0356,Can we study together for the exam?,neutral,individual,low,0.01,english
+ANON_0357,[USR] stop stalking my social media daily,cyberstalking,individual,high,0.85,bad_words
+ANON_0358,Notes are uploaded in the drive guys.,neutral,academic,low,0.02,english
+ANON_0359,Everyone hates your [PROFANITY] face honestly,hate,appearance,high,0.88,bad_words
+ANON_0360,Meeting at 4 PM confirmed guys.,neutral,group,low,0.01,english
+ANON_0361,"[USR], nee tumba irritating yaar re.",insult,individual,medium,0.35,kannada
+ANON_0362,notes share maadidakke tumba thanks.,neutral,individual,low,0.02,kannada
+ANON_0363,"[USR], nee hogi ninna kade bidu.",exclusion,individual,high,0.55,kannada
+ANON_0364,assignment due date extend aaytu.,neutral,academic,low,0.02,kannada
+ANON_0365,"[USR], nee full fake personality bro.",insult,individual,medium,0.42,kannada
+ANON_0366,"sakkath presentation aaytu, super boss.",neutral,individual,low,0.01,kannada
+ANON_0367,"[USR], nanna online status yaak check madthiya daily.",cyberstalking,individual,high,0.85,kannada
+ANON_0368,exam hall number confirm maadi.,neutral,academic,low,0.02,kannada
+ANON_0369,"[USR], nee tumba annoying behaviour yaar.",insult,individual,medium,0.35,kannada
+ANON_0370,coffee break togoli banni guys.,neutral,group,low,0.01,kannada
+ANON_0371,"[USR], ninna jothe yaaru iralla bekagilla.",exclusion,individual,high,0.52,kannada
+ANON_0372,"naale sunday, yaavaga meet maadona.",neutral,group,low,0.02,kannada
+ANON_0373,"[USR], principal kade complaint kodu hogthini.",threat,individual,high,0.88,kannada
+ANON_0374,project extension sigthu relax maadi.,neutral,academic,low,0.02,kannada
+ANON_0375,"[USR], nee full time fake smile haakthiya always.",insult,individual,medium,0.35,kannada
+ANON_0376,oota maadona today good restaurant nalli.,neutral,group,low,0.01,kannada
+ANON_0377,"[USR], nanna friends jothe matadod nillsu seriously.",harassment,individual,medium,0.55,kannada
+ANON_0378,internship update share maadi.,neutral,individual,low,0.02,kannada
+ANON_0379,"[USR], nee complete nonsense fellow seriously.",insult,individual,medium,0.45,kannada
+ANON_0380,assignment template share maadi pls.,neutral,academic,low,0.02,kannada
+ANON_0381,You're such a disappointment 😞,insult,individual,medium,0.5,emoji
+ANON_0382,Project deadline extended 📅,neutral,academic,low,0.0,emoji
+ANON_0383,I will expose you to everyone 📣,threat,individual,high,0.8,emoji
+ANON_0384,You're the worst person ever 💩,insult,individual,high,0.75,emoji
+ANON_0385,Good luck for tomorrow 🍀,neutral,individual,low,0.0,emoji
+ANON_0386,Everyone laughs at you behind your back 😂,insult,individual,high,0.7,emoji
+ANON_0387,Thanks for the study notes 📝,neutral,individual,low,0.0,emoji
+ANON_0388,I'm tracking your location 📍,cyberstalking,individual,high,0.92,emoji
+ANON_0389,You bring toxic energy everywhere 🧪,toxicity,individual,medium,0.55,emoji
+ANON_0390,Team lunch tomorrow 🍕,neutral,group,low,0.0,emoji
+ANON_0391,[USR] I'll spread your private photos,threat,individual,high,0.95,bad_words
+ANON_0392,Class notes are ready to share.,neutral,academic,low,0.02,english
+ANON_0393,You are such a [PROFANITY] embarrassment,insult,individual,high,0.8,bad_words
+ANON_0394,Study material uploaded in folder.,neutral,academic,low,0.01,english
+ANON_0395,[USR] you disgust everyone around you,hate,individual,high,0.85,bad_words
+ANON_0396,Exam schedule released check it.,neutral,academic,low,0.02,english
+ANON_0397,[USR] stop messaging me [PROFANITY],harassment,individual,high,0.72,bad_words
+ANON_0398,Lab timing changed to 2 PM.,neutral,academic,low,0.02,english
+ANON_0399,[USR] your whole existence is a joke,insult,individual,high,0.78,bad_words
+ANON_0400,Project team meeting at 5.,neutral,group,low,0.01,english
+ANON_0401,"[USR], nanna location yaak track madthiya daily.",cyberstalking,individual,high,0.92,kannada
+ANON_0402,exam preparation howdu everyone?,neutral,individual,low,0.01,kannada
+ANON_0403,"[USR], ninna jothe yaaru friendship bekagilla seriously.",exclusion,individual,high,0.58,kannada
+ANON_0404,"fest registration link haakbidu, very urgent.",neutral,group,low,0.02,kannada
+ANON_0405,"[USR], nee tumba cheap behaviour showing.",insult,individual,high,0.55,kannada
+ANON_0406,next class yaavaga start aguthe?,neutral,academic,low,0.02,kannada
+ANON_0407,"[USR], nanna life alli interfere madbeda seriously.",harassment,individual,medium,0.58,kannada
+ANON_0408,library open time yaavaga?,neutral,academic,low,0.02,kannada
+ANON_0409,"[USR], nee tumba irritating agthiya re seriously.",insult,individual,medium,0.35,kannada
+ANON_0410,canteen food sakkath aaytu today.,neutral,group,low,0.01,kannada
+ANON_0411,"[USR], [AUTHORITY] ge complaint kodu hogthini watch.",threat,individual,high,0.88,kannada
+ANON_0412,sports day practice ge banni.,neutral,group,low,0.02,kannada
+ANON_0413,"[USR], nee full time drama madthiya always.",insult,individual,medium,0.38,kannada
+ANON_0414,project partner yaaru antha decide maadi.,neutral,academic,low,0.02,kannada
+ANON_0415,"[USR], nanna status yaak check madthiya always.",cyberstalking,individual,high,0.85,kannada
+ANON_0416,exam center details share maadi.,neutral,academic,low,0.02,kannada
+ANON_0417,"[USR], nee tumba fake person yaar.",insult,individual,medium,0.45,kannada
+ANON_0418,movie plan ge yaaru barthira?,neutral,group,low,0.01,kannada
+ANON_0419,"[USR], ninna jothe yaaru hang out bekagilla.",exclusion,individual,high,0.55,kannada
+ANON_0420,lab attendance mark aaytha check maadi.,neutral,academic,low,0.02,kannada
+ANON_0421,You make me sick 🤢,hate,individual,high,0.75,emoji
+ANON_0422,Congrats on the results 🎉,neutral,individual,low,0.0,emoji
+ANON_0423,I know where you stay 🏠,threat,individual,high,0.9,emoji
+ANON_0424,You're embarrassing yourself 😳,insult,individual,medium,0.45,emoji
+ANON_0425,Group study tonight 🌙,neutral,group,low,0.0,emoji
+ANON_0426,You're completely useless 🗑️,insult,individual,high,0.7,emoji
+ANON_0427,Thanks for the feedback 💬,neutral,individual,low,0.0,emoji
+ANON_0428,I'll find out everything about you 🔍,cyberstalking,individual,high,0.85,emoji
+ANON_0429,You ruin every group you join ❌,toxicity,group,high,0.75,emoji
+ANON_0430,Quiz postponed to next week 📆,neutral,academic,low,0.0,emoji
+ANON_0431,[USR] you're nothing but [PROFANITY] garbage,insult,individual,high,0.85,bad_words
+ANON_0432,Library closes at 8 PM today.,neutral,academic,low,0.02,english
+ANON_0433,[USR] I'll destroy everything you care about,threat,individual,high,0.92,bad_words
+ANON_0434,Assignment template is in shared folder.,neutral,academic,low,0.01,english
+ANON_0435,[USR] you make everyone uncomfortable,hate,individual,high,0.78,bad_words
+ANON_0436,Seminar timings announced check it.,neutral,academic,low,0.02,english
+ANON_0437,[USR] [PROFANITY] off and leave,harassment,individual,high,0.8,bad_words
+ANON_0438,Guest lecture at 3 PM confirmed.,neutral,academic,low,0.02,english
+ANON_0439,[USR] your presence is [PROFANITY] toxic,toxicity,individual,high,0.82,bad_words
+ANON_0440,Internship forms available in office.,neutral,academic,low,0.01,english
+ANON_0441,"[USR], nee group nalli bekagilla seriously.",exclusion,group,high,0.58,kannada
+ANON_0442,placement training ge register maadi.,neutral,academic,low,0.02,kannada
+ANON_0443,"[USR], nee tumba toxic person yaar.",toxicity,individual,high,0.65,kannada
+ANON_0444,cultural fest registration open aaytu.,neutral,group,low,0.02,kannada
+ANON_0445,"[USR], nanna messages yaak forward madthiya.",harassment,individual,medium,0.55,kannada
+ANON_0446,syllabus completion update beku.,neutral,academic,low,0.02,kannada
+ANON_0447,"[USR], nee tumba jealous type yaar.",insult,individual,medium,0.42,kannada
+ANON_0448,workshop registration link share maadi.,neutral,group,low,0.01,kannada
+ANON_0449,"[USR], ninna jothe project bekagilla.",exclusion,academic,high,0.52,kannada
+ANON_0450,mock test schedule release aaytu.,neutral,academic,low,0.02,kannada
+ANON_0451,"[USR], nee tumba desperate tara idiya.",insult,individual,medium,0.45,kannada
+ANON_0452,viva preparation ge notes share maadi.,neutral,academic,low,0.02,kannada
+ANON_0453,"[USR], nanna personal life alli interfere madbeda.",harassment,individual,medium,0.58,kannada
+ANON_0454,farewell party planning start maadona.,neutral,group,low,0.01,kannada
+ANON_0455,"[USR], nee tumba creepy behave madthiya.",insult,individual,high,0.62,kannada
+ANON_0456,alumni meet ge register aagbeku.,neutral,group,low,0.02,kannada
+ANON_0457,"[USR], yaaru kuda ninna ishta padalla.",hate,individual,high,0.75,kannada
+ANON_0458,guest lecture notes share maadi.,neutral,academic,low,0.02,kannada
+ANON_0459,"[USR], nee tumba attention seeker yaar.",insult,individual,medium,0.45,kannada
+ANON_0460,annual day practice ge banni.,neutral,group,low,0.01,kannada
+ANON_0461,You're invisible to everyone 👻,exclusion,individual,high,0.72,emoji
+ANON_0462,Extra class confirmed tomorrow 📖,neutral,academic,low,0.0,emoji
+ANON_0463,I'll cyberbully you daily 📱,harassment,individual,high,0.9,emoji
+ANON_0464,You're mentally unstable 🤪,insult,individual,high,0.8,emoji
+ANON_0465,Submission deadline today ⚠️,neutral,academic,low,0.0,emoji
+ANON_0466,Nobody will ever like you 💔,exclusion,individual,high,0.78,emoji
+ANON_0467,Best wishes for the interview 🤞,neutral,individual,low,0.0,emoji
+ANON_0468,I screenshot all your posts 📸,cyberstalking,individual,high,0.82,emoji
+ANON_0469,You're a waste of everyone's time ⌛,insult,individual,high,0.72,emoji
+ANON_0470,Practical exam schedule out 🔬,neutral,academic,low,0.0,emoji
+ANON_0471,[USR] I have all your personal info,threat,individual,high,0.88,bad_words
+ANON_0472,Bus timing changed for tomorrow.,neutral,unknown,low,0.02,english
+ANON_0473,[USR] you're a [PROFANITY] disappointment to all,insult,individual,high,0.82,bad_words
+ANON_0474,College fest on Saturday confirmed.,neutral,group,low,0.01,english
+ANON_0475,[USR] people are laughing at you behind,insult,individual,high,0.7,bad_words
+ANON_0476,Form submission last date tomorrow.,neutral,academic,low,0.02,english
+ANON_0477,[USR] you deserve all the hate you get,hate,individual,high,0.85,bad_words
+ANON_0478,ID card collection from office.,neutral,unknown,low,0.02,english
+ANON_0479,[USR] I'll make sure you regret this,threat,individual,high,0.88,bad_words
+ANON_0480,Certificate distribution on Monday.,neutral,academic,low,0.01,english
+ANON_0481,"[USR], nee tumba backdated mentality yaar.",insult,individual,medium,0.48,kannada
+ANON_0482,hostel fee deadline extend aaytu.,neutral,academic,low,0.02,kannada
+ANON_0483,"[USR], nee group alli unwanted yaar.",exclusion,group,high,0.58,kannada
+ANON_0484,sports day events list share maadi.,neutral,group,low,0.02,kannada
+ANON_0485,"[USR], nanna reputation damage madthiya.",threat,individual,high,0.78,kannada
+ANON_0486,blood donation camp tomorrow.,neutral,group,low,0.01,kannada
+ANON_0487,"[USR], nee tumba fake friend yaar.",insult,individual,medium,0.45,kannada
+ANON_0488,NSS camp registration open aaytu.,neutral,group,low,0.02,kannada
+ANON_0489,"[USR], yaavaga nodidru nanna stalk madthiya.",cyberstalking,individual,high,0.88,kannada
+ANON_0490,tech fest schedule release aaytu.,neutral,group,low,0.02,kannada
+ANON_0491,"[USR], nee tumba problematic person yaar.",insult,individual,medium,0.52,kannada
+ANON_0492,debate competition registration open.,neutral,academic,low,0.01,kannada
+ANON_0493,"[USR], ninna presence bekagilla here.",exclusion,individual,high,0.55,kannada
+ANON_0494,quiz competition results announced.,neutral,academic,low,0.02,kannada
+ANON_0495,"[USR], nee tumba negative energy spread madthiya.",toxicity,individual,high,0.68,kannada
+ANON_0496,farewell date finalize aaytu.,neutral,group,low,0.02,kannada
+ANON_0497,"[USR], ninna jothe matadodu bekagilla anymore.",exclusion,individual,high,0.52,kannada
+ANON_0498,graduation day dress code decide maadi.,neutral,group,low,0.01,kannada
+ANON_0499,"[USR], nee tumba manipulative yaar seriously.",insult,individual,high,0.58,kannada
+ANON_0500,convocation ceremony date confirmed.,neutral,group,low,0.02,kannada

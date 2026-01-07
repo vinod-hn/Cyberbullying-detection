@@ -1,0 +1,221 @@
+{
+    "version": "1.0.0",
+    "description": "Configuration for Kannada-English Cyberbullying Detection Preprocessing Module",
+    
+    "text_normalizer": {
+        "enabled": true,
+        "lowercase": true,
+        "remove_urls": true,
+        "remove_emails": true,
+        "remove_hashtag_ids": true,
+        "reduce_elongation": true,
+        "max_char_repeat": 2,
+        "normalize_unicode": true,
+        "normalize_whitespace": true,
+        "remove_zero_width": true,
+        "preserve_kannada_script": true,
+        "handle_contractions": true,
+        "reduce_punctuation": true,
+        "max_punct_repeat": 1,
+        "remove_usernames": false,
+        "strip_extra_spaces": true
+    },
+    
+    "emoji_handler": {
+        "enabled": true,
+        "extract_emojis": true,
+        "analyze_sentiment": true,
+        "detect_bullying_patterns": true,
+        "detect_threats": true,
+        "detect_mockery": true,
+        "detect_offensive": true,
+        "detect_sexual_harassment": true,
+        "detect_body_shaming": true,
+        "replace_with_text": false,
+        "remove_emojis": false,
+        "normalize_skin_tones": true,
+        "severity_thresholds": {
+            "critical": 0.8,
+            "high": 0.6,
+            "medium": 0.4,
+            "low": 0.2
+        }
+    },
+    
+    "code_mix_processor": {
+        "enabled": true,
+        "detect_language": true,
+        "calculate_code_mix_ratio": true,
+        "classify_tokens": true,
+        "normalize_mixed_text": true,
+        "detect_profanity": true,
+        "expand_slang": false,
+        "preserve_emojis": true,
+        "preserve_numbers": true,
+        "language_detection_threshold": 0.3,
+        "profanity_detection": {
+            "detect_kannada": true,
+            "detect_english": true,
+            "detect_compounds": true,
+            "severity_levels": ["low", "medium", "high", "critical"]
+        }
+    },
+    
+    "transliterator": {
+        "enabled": true,
+        "kannada_to_roman": true,
+        "roman_to_kannada": true,
+        "preserve_unknown": true,
+        "handle_numbers": true,
+        "handle_punctuation": true,
+        "use_phonetic_mapping": true,
+        "vowel_handling": "standard",
+        "consonant_handling": "standard"
+    },
+    
+    "slang_expander": {
+        "enabled": true,
+        "expand_kannada_slang": true,
+        "expand_english_slang": true,
+        "expand_abbreviations": true,
+        "expand_internet_slang": true,
+        "preserve_original": false,
+        "case_sensitive": false,
+        "max_expansions": 3
+    },
+    
+    "conversation_threader": {
+        "enabled": true,
+        "thread_window_minutes": 30,
+        "max_gap_minutes": 60,
+        "min_thread_messages": 2,
+        "detect_mentions": true,
+        "detect_replies": true,
+        "track_escalation": true,
+        "build_interaction_graph": true,
+        "identify_targets": true,
+        "identify_harassers": true,
+        "temporal_analysis": true,
+        "harassment_campaign_detection": {
+            "enabled": true,
+            "min_messages": 5,
+            "time_window_hours": 24,
+            "min_senders_for_coordinated": 3
+        }
+    },
+    
+    "pipeline": {
+        "default_steps": [
+            "text_normalizer",
+            "emoji_handler",
+            "code_mix_processor",
+            "transliterator",
+            "slang_expander"
+        ],
+        "conversation_steps": [
+            "text_normalizer",
+            "emoji_handler",
+            "code_mix_processor",
+            "conversation_threader"
+        ],
+        "batch_size": 100,
+        "parallel_processing": false,
+        "cache_results": true
+    },
+    
+    "lexicon_paths": {
+        "kannada_slang": "../00_data/lexicon/kannada_slang.csv",
+        "english_slang": "../00_data/lexicon/english_slang.csv",
+        "profanity_kannada": "../00_data/lexicon/profanity_kannada.csv",
+        "profanity_english": "../00_data/lexicon/profanity_english.csv",
+        "emoji_semantics": "../00_data/lexicon/emoji_semantics.json",
+        "code_mix_patterns": "../00_data/lexicon/code_mix_patterns.txt",
+        "bad_words": "../00_data/raw/bad_words.csv"
+    },
+    
+    "language_settings": {
+        "primary_languages": ["kannada", "english"],
+        "script_support": ["kannada_script", "roman_script"],
+        "kannada_unicode_range": {
+            "start": "0x0C80",
+            "end": "0x0CFF"
+        },
+        "romanized_kannada_detection": true
+    },
+    
+    "profanity_settings": {
+        "kannada_profanity": {
+            "basic_insults": [
+                "thotha", "thota", "singri", "dagarina", 
+                "hucchadana", "hucchadanta", "moorkha", "bewakoof"
+            ],
+            "vulgar_terms": [
+                "gaandu", "gandu", "soolya", "sulya", 
+                "bosodina", "bosodike", "soole", "thullu", "keya"
+            ],
+            "family_insults": [
+                "nimavvan", "nimmavvana", "nim amman", 
+                "ninna amma", "ninna ammanakeya"
+            ],
+            "threat_related": [
+                "saayi", "sucide", "die mad", "hodbitta"
+            ]
+        },
+        "english_profanity": {
+            "common_insults": [
+                "stupid", "idiot", "moron", "dumb", "dumbass",
+                "fool", "loser", "jerk", "pathetic", "disgusting"
+            ],
+            "vulgar_terms": [
+                "asshole", "bastard", "bitch", "slut", "whore",
+                "dick", "dickhead", "dickhole"
+            ],
+            "slurs": [
+                "retard", "fag"
+            ],
+            "threats": [
+                "die", "kill", "suicide"
+            ]
+        },
+        "severity_weights": {
+            "basic_insult": 0.3,
+            "vulgar": 0.6,
+            "slur": 0.8,
+            "threat": 0.9,
+            "compound": 1.0
+        }
+    },
+    
+    "detection_thresholds": {
+        "cyberbullying_confidence": 0.5,
+        "threat_confidence": 0.7,
+        "harassment_confidence": 0.6,
+        "profanity_confidence": 0.4,
+        "code_mix_ratio_significant": 0.3
+    },
+    
+    "output_settings": {
+        "include_original_text": true,
+        "include_normalized_text": true,
+        "include_emoji_analysis": true,
+        "include_language_detection": true,
+        "include_profanity_detection": true,
+        "include_severity_score": true,
+        "format": "dict"
+    },
+    
+    "logging": {
+        "level": "INFO",
+        "log_file": "../17_logs/preprocessing.log",
+        "log_format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "log_to_console": true,
+        "log_to_file": true
+    },
+    
+    "performance": {
+        "enable_caching": true,
+        "cache_size": 1000,
+        "lazy_loading": true,
+        "compile_patterns_on_init": true
+    }
+}

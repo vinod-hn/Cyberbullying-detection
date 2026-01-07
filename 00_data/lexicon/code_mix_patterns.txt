@@ -1,0 +1,132 @@
+# Code-Mix Patterns: Kannada-English
+# Source: kannad english.csv, kannada.csv, bad_words.csv
+# Patterns observed in cyberbullying context
+# ==========================================
+
+## 1. SENTENCE STRUCTURE PATTERNS
+
+### Pattern A: Kannada Base + English Insult
+Template: [Kannada pronoun] + [English insult/adjective] + [Kannada verb ending]
+Examples:
+- "nee full stupid idiya" (You are full stupid)
+- "avanu tumba toxic agidane" (He has become very toxic)
+- "nanna fake friend madkondu" (Making me a fake friend)
+
+### Pattern B: English Base + Kannada Fillers
+Template: [English sentence] + [Kannada particles: re, maga, yaar]
+Examples:
+- "You are such a loser maga"
+- "Stop being toxic re"
+- "Why are you so fake yaar"
+
+### Pattern C: Mixed Vocabulary
+Template: Alternating Kannada-English words
+Examples:
+- "Class nalli ee behavior beda" (This behavior not needed in class)
+- "Group ge spam madbeda" (Don't spam the group)
+- "Lecture miss aaytu but notes share maadi" (Missed lecture but share notes)
+
+## 2. PROFANITY MIXING PATTERNS
+
+### Kannada Profanity in English Context
+- "You are such a gaandu in this group"
+- "Only a thotha will do this"
+- "Stop being a soolya"
+
+### English Profanity with Kannada Grammar
+- "Nee asshole tara behave madthiya"
+- "Ivan stupid maga"
+- "Group nalli ee bastard attitude beda"
+
+### Euphemistic Code-Switching
+- Using English when Kannada term is too harsh
+- Using Kannada when English seems too direct
+- Switching mid-sentence to soften/intensify
+
+## 3. CYBERBULLYING-SPECIFIC PATTERNS
+
+### Threat Formation
+Kannada structure + English threat words:
+- "Ninage complaint haakthini" → "I will file complaint against you"
+- "Consequences face maadu" → "Face the consequences"
+- "Regret madthiya nodu" → "You will regret, see"
+
+### Exclusion Language
+- "Ivanu group ge belong agalla" (He doesn't belong to group)
+- "Selected people only, nee out"
+- "Illi ninge place illa, just leave"
+
+### Stalking/Harassment
+- "Nanna movements yak track madthiya" (Why are you tracking my movements)
+- "Online status always check madthidya" (Always checking online status)
+- "Every post ge comment madbeda re" (Don't comment on every post)
+
+## 4. INTENSIFICATION PATTERNS
+
+### Degree Modifiers
+Kannada intensifiers with English adjectives:
+- "tumba irritating" (very irritating)
+- "sakkat dumb" (extremely dumb)
+- "full toxic" (completely toxic)
+- "swalpa annoying" (a bit annoying)
+
+### Repetition for Emphasis
+- "Fake fake fake nee"
+- "Bore bore aaytu"
+- "Waste waste fellow"
+
+## 5. TARGET REFERENCE PATTERNS
+
+### Direct Address
+- "[Name] maga, ..." (addressing with 'maga')
+- "[Name] re, ..." (addressing with 're')
+- "Aye [Name], ..." (calling out)
+
+### Third Person Reference
+- "Ivanu/Ivalu tumba..." (He/She very...)
+- "Aa [group] hudguru..." (Those [group] guys...)
+- "Ee batch nalli..." (In this batch...)
+
+## 6. GRAMMATICAL MARKERS
+
+### Question Formation
+English question + Kannada verb:
+- "Why ee tara madthiya?" (Why do you do like this?)
+- "What problem ide ninge?" (What problem do you have?)
+
+### Negation Patterns
+- "Don't message madbeda" (Double negative emphasis)
+- "Never again helidre, illa" (Never again, I said, no)
+
+### Conditional Threats
+- "Once more maadidre, then see" (If you do once more, then see)
+- "Adu repeat aadre, complaint file madthini" (If that repeats, will file complaint)
+
+## 7. EMOJI + CODE-MIX
+
+### Emoji Placement
+- End of sentence: "Nee tumba irritating 😒"
+- Mid-sentence emphasis: "Ivanu 🤡 tara act madthidane"
+- Replacement for words: "Nanna ❤️ hurt maadidya"
+
+## 8. DETECTION IMPLICATIONS
+
+### High-Risk Patterns
+1. Kannada profanity + English sentence = Often more severe
+2. Multiple intensifiers = Heightened aggression
+3. Threat verbs in English + Kannada target = Direct threat
+
+### False Positive Risks
+1. Casual banter uses same particles (maga, re, yaar)
+2. Playful insults among friends
+3. Sarcasm markers may be missed
+
+### Recommended Handling
+1. Weight code-mixed profanity higher than single-language
+2. Consider context window for intensity assessment
+3. Track conversation history for pattern detection
+
+---
+File: code_mix_patterns.txt
+Version: 1.0
+Last Updated: 2024-01-15
